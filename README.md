@@ -11,7 +11,7 @@
 ###
 
 <div align="center">
-  <img height="300" src="https://upload-os-bbs.hoyolab.com/upload/2021/05/03/106505571/663c2ee3a3876ed8a5943415770e95a0_6472599834359776927.jpg"  />
+  <img height="300" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2Fae%2F6d%2F81%2Fae6d817b74e47879d035b2423c1dd7e2.jpg"  />
 </div>
 
 ###
@@ -22,16 +22,16 @@
             <th> 
         </tr>
         <tr>
-            <td align="center"> <a href="">Characters</a> </td>
+            <td align="center"> <a href="https://github.com/ladyfoxpoint/anime-game-assets/tree/main/Characters">Characters</a> </td>
         </tr>
         <tr>
-            <td align="center"> <a href="">Weapons</a> </td>
+            <td align="center"> <a href="">Weapons</a></br>(soon™) </td>
         </tr>
         <tr>
-            <td align="center"> <a href="">Monsters</a> </td>
+            <td align="center"> <a href="">Monsters</a></br>(soon™) </td>
         </tr>
         <tr>
-            <td align="center"> <a href="">Furniture</a> </td>
+            <td align="center"> <a href="">Furniture</a></br>(soon™) </td>
         </tr>
     </table>
 </div>
