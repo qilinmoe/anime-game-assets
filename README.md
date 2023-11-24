@@ -11,7 +11,7 @@
 ###
 
 <div align="center">
-  <img height="300" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2Fae%2F6d%2F81%2Fae6d817b74e47879d035b2423c1dd7e2.jpg"  />
+  <img height="300" src="https://pbs.twimg.com/media/F0SgYGzXgAMh7RV.jpg"  />
 </div>
 
 ###
@@ -25,7 +25,7 @@
             <td align="center"> <a href="https://github.com/ladyfoxpoint/anime-game-assets/tree/main/Characters">Characters</a> </td>
         </tr>
         <tr>
-            <td align="center"> <a href="">Weapons</a></br>(soon™) </td>
+            <td align="center"> <a href="">Weapons</a></br>(REALLY soon™) </td>
         </tr>
         <tr>
             <td align="center"> <a href="">Monsters</a></br>(soon™) </td>
