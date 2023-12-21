@@ -11,11 +11,11 @@
 ###
 
 <div align="center">
-  <img height="300" src="https://pbs.twimg.com/media/F0SgYGzXgAMh7RV.jpg"  />
+  <img height="300" src="https://media.discordapp.net/attachments/1130533452991713320/1187228128192495637/08b2f960-f6bf-4ce5-ba93-2087ed5fc6d9.png"/>
 </div>
 
 ###
-<p align="center"><b>Current Version: 4.3</b></p>
+<p align="center"><b>Current Version: 4.4</b></p>
 <div align="center">
     <table align="center">
         <tr>
@@ -25,7 +25,7 @@
             <td align="center"> <a href="https://github.com/ladyfoxpoint/anime-game-assets/tree/main/Characters">Characters</a> </td>
         </tr>
         <tr>
-            <td align="center"> <a href="">Weapons</a></br>(REALLY soon™) </td>
+            <td align="center"> <a href="https://github.com/ladyfoxpoint/anime-game-assets/tree/main/Weapons">Weapons</a></br>(Not all organized yet) </td>
         </tr>
         <tr>
             <td align="center"> <a href="">Monsters</a></br>(soon™) </td>
@@ -45,7 +45,7 @@
 ###
 
 <h4 align="center">models exported<br>with ♡︎ by nana</h4>
-<h4 align="center">special thanks to: <br>razmoth<br>yarik</h4>
+<h4 align="center">special thanks to: <br>razmoth<br>yarik<br>mero</h4>
 
 <br clear="both">
 
