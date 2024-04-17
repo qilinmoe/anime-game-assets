@@ -1,0 +1,178 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 7743084581114621728,
+    "Name": "miHoYo/Effects/Smoke",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_AlphaCurve": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DissolveTex": {
+        "m_Texture": {
+          "m_FileID": 2,
+          "m_PathID": -8827866274827653460,
+          "Name": "Eff_Sc_Mengde_Smoke",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_PackedColorRampTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "_AlphaBrightness": 2.5,
+      "_AlphaMask": 0.0,
+      "_AmbientBrightness": 0.01,
+      "_BaseTex_Vspeed": -0.4,
+      "_Bend": 1.0,
+      "_BendArea": 2.0,
+      "_BlendOP": 0.0,
+      "_BumpScale": 1.0,
+      "_ColorBrightness": 1.0,
+      "_Cull": 0.0,
+      "_CurveSpeed": 0.05,
+      "_Cutoff": 0.5,
+      "_DetailNormalMapScale": 1.0,
+      "_DstBlend": 0.0,
+      "_DstBlendMode": 10.0,
+      "_EableSoftParticle": 0.0,
+      "_EffectedByFog": 0.0,
+      "_EnableBillboard": 1.0,
+      "_EnableEmissionCurve": 0.0,
+      "_EnableGradientMap": 0.0,
+      "_EnableRandomMask": 0.0,
+      "_GlossMapScale": 1.0,
+      "_Glossiness": 0.5,
+      "_GlossyReflections": 1.0,
+      "_InvSoftDistance": 0.2,
+      "_InverseDistanceBlend": 0.041152094,
+      "_MHYZBias": 0.0,
+      "_MaskTexOffset": -1.0,
+      "_Metallic": 0.0,
+      "_Mode": 0.0,
+      "_MotionVectorsAlphaCutoff": 0.1,
+      "_NoiseTex_Uspeed": 0.0,
+      "_NoiseTex_Vspeed": -0.06,
+      "_OcclusionStrength": 1.0,
+      "_PackedColorRampID": 1.0,
+      "_Parallax": 0.02,
+      "_PolygonOffsetFactor": 0.0,
+      "_PolygonOffsetUnit": 0.0,
+      "_ShadowColorLightnes": 1.0,
+      "_ShadowColorPurity": 1.0,
+      "_SmokeIntensity": 6.0,
+      "_SmoothnessTextureChannel": 0.0,
+      "_SpecularHighlights": 1.0,
+      "_SrcBlend": 1.0,
+      "_SrcBlendMode": 5.0,
+      "_UVSec": 0.0,
+      "_UseRandomUV": 0.0,
+      "_UseSmokeRotation": 0.0,
+      "_UseVertexColor": 0.0,
+      "_VertexOffset": 2.0,
+      "_VertexWaveAmount": 1.0,
+      "_VertexWaveScale": 0.2,
+      "_VertexWaveXScale": 0.2,
+      "_VertexWaveYScale": 1.51,
+      "_ZWrite": 1.0,
+      "_Ztest": 4.0,
+      "_Zwrite": 1.0
+    },
+    "m_Colors": {
+      "_Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_Dissolve_UV": {
+        "r": 0.45,
+        "g": 1.6,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_FarSmokeUVST": {
+        "r": 0.45,
+        "g": 1.6,
+        "b": 0.2,
+        "a": 0.0
+      },
+      "_MainColor": {
+        "r": 0.5808823,
+        "g": 0.5808823,
+        "b": 0.5808823,
+        "a": 1.0
+      },
+      "_NearUVScale": {
+        "r": 2.6,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_RandomMask": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_SmokeMaskStep": {
+        "r": 1.72,
+        "g": 0.14,
+        "b": 3.6,
+        "a": 0.0
+      },
+      "_Speed": {
+        "r": -0.36,
+        "g": -0.4,
+        "b": 0.0,
+        "a": 0.0
+      }
+    }
+  },
+  "m_Name": "Eff_Stages_MengdeSmoke_03",
+  "Name": "Eff_Stages_MengdeSmoke_03"
+}

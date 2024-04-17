@@ -1,0 +1,494 @@
+{
+  "m_Shader": {
+    "m_FileID": 2,
+    "m_PathID": -1208014316390779032,
+    "Name": "miHoYo/Scene/Glass Interior",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_BumpMap": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": 3469342844932934828,
+          "Name": "Area_Xm_Prop_DCL_Shineiwujian_04_Normal",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DetailMask": {
+        "m_Texture": {
+          "m_FileID": 6,
+          "m_PathID": -3975472305079126103,
+          "Name": "Area_Xm_Prop_DCL_Shineiwujian_06_SMBE",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DirtDetailMask": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DirtDiffuseTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_InteriorSphereTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_InteriorTex": {
+        "m_Texture": {
+          "m_FileID": 7,
+          "m_PathID": 2381030862036832623,
+          "Name": "Area_Xm_Prop_DCL_Shineiwujian_05_Interior",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 0.5,
+          "Y": 0.5
+        },
+        "m_Offset": {
+          "X": 0.25,
+          "Y": 0.0
+        }
+      },
+      "_InteriorTintRampTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MainTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ReflectionCube": {
+        "m_Texture": {
+          "m_FileID": 1,
+          "m_PathID": -2708089968576602796,
+          "Name": "",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecColor": {
+        "m_Texture": {
+          "m_FileID": 5,
+          "m_PathID": 7978963242046185441,
+          "Name": "Area_Xm_Prop_DCL_Shineiwujian_04_Interior_NoStream",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecSolidHeightMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ThirdColor": {
+        "m_Texture": {
+          "m_FileID": 4,
+          "m_PathID": 3646000732959334417,
+          "Name": "Area_Xm_Prop_DCL_Shineiwujian_06_Interior",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 2.0,
+          "Y": 2.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "INTERIOR_ROOM": 2.0,
+      "SECOND_INTERIOR": 2.0,
+      "THIRD_INTERIOR": 2.0,
+      "_AbstractGroup": 0.0,
+      "_BlendValueFrom": 0.0,
+      "_BumpScale": 0.47,
+      "_ClampInteriorPos": 0.0,
+      "_Cutoff": 0.5,
+      "_CylinderRadius": 0.655,
+      "_DetailNormalMapScale": 1.0,
+      "_DirtDetailBlendIntensity": 1.0,
+      "_DirtDetailBlendMethod": 0.0,
+      "_DirtDiffuseBlendIntensity": 1.0,
+      "_DirtGroup": 0.0,
+      "_DirtGroupNew": 0.0,
+      "_DirtInteriorBlendIntensity": 0.0,
+      "_DirtInteriorFarFadeIntensity": 0.0,
+      "_DirtSharpness": 0.0,
+      "_DirtUVSet": 0.0,
+      "_DisableNonGlassMaskWhenLightingOn": 0.0,
+      "_DitherStep": 1.0,
+      "_DstBlend": 0.0,
+      "_Dx11ShaderPsScore": 277.0,
+      "_Dx11ShaderScore": 375.0,
+      "_Dx11ShaderVsScore": 97.0,
+      "_EmissionIntensityOffset": 1.0,
+      "_EnableExtraLighting": 0.0,
+      "_EnableHeightBlend": 0.0,
+      "_EnableInteriorCylinder": 0.0,
+      "_EnableInteriorLight": 0.0,
+      "_EnableSecInterior": 1.0,
+      "_EnableSolidSecLayer": 0.0,
+      "_EnableThirdInterior": 1.0,
+      "_FirstSliceGroup": 0.0,
+      "_FixSphereRoomNoneIntersectionArea": 0.0,
+      "_FogDistance": 8.0,
+      "_FogEnd": 1.06,
+      "_FogStart": 0.14,
+      "_GlossMapScale": 1.0,
+      "_Glossiness": 0.5,
+      "_GlossyReflections": 1.0,
+      "_HeightBlendTip": 0.0,
+      "_HeightContrast": 0.0,
+      "_HeightOffset": 0.5,
+      "_HeightSpread": 1.0,
+      "_Help": 0.0,
+      "_IgnoreRoomRatio": 1.0,
+      "_InteiorColorDiluteInLighting": 0.0,
+      "_InteriorColorMultiplier": 1.0,
+      "_InteriorCommonGroup": 0.0,
+      "_InteriorCubeLOD": 0.0,
+      "_InteriorDepth": 0.50005,
+      "_InteriorFade": 0.0,
+      "_InteriorFadePow": 3.38,
+      "_InteriorFogGroup": 1.0,
+      "_InteriorFogGroupNew": 0.0,
+      "_InteriorLightAtten0": 1.0,
+      "_InteriorLightAttenTOD": 1.0,
+      "_InteriorLightFarIntensity0": 1.0,
+      "_InteriorLightGroup": 0.0,
+      "_InteriorLightIntensity0": 1.0,
+      "_InteriorLightRange0": 1.0,
+      "_InteriorMobileGain": 1.0,
+      "_InteriorMobilePriority": 0.0,
+      "_InteriorMobilePriorityTip": 0.0,
+      "_InteriorNormalMultiplier": 1.0,
+      "_InteriorRoomGroup": 0.0,
+      "_InteriorTexType": 1.0,
+      "_InteriorTint": 0.0,
+      "_InteriorTintRamp": 0.0,
+      "_InteriorUVSet": 0.0,
+      "_InverseHeight": 0.0,
+      "_InvertBlend": 0.0,
+      "_IsObjSpace": 1.0,
+      "_KeepSpecularForNonGlassArea": 0.0,
+      "_LowerTransparencyWhenLightingOffControlledByMPB": 1.0,
+      "_Metallic": 1.0,
+      "_MobileReflIntensity": 1.0,
+      "_MobileReflRamp": 0.0,
+      "_Mode": 0.0,
+      "_NonGlassAreaThreshold": 0.5,
+      "_OcclusionStrength": 1.0,
+      "_Parallax": 0.02,
+      "_PolygonOffsetFactor": 0.0,
+      "_PolygonOffsetUnit": 0.0,
+      "_PropConditionsObjPath": 0.0,
+      "_ReflAndInteriorInGeomPass": 1.0,
+      "_ReflectionGroup": 0.0,
+      "_ReverseZDir": 0.0,
+      "_RoomMaxDepth01": 0.15,
+      "_ScaleRoomByCenter": 0.0,
+      "_SecBillboardDir": 1.0,
+      "_SecSolidJitterScale": 1.0,
+      "_SecUniformDepth": 0.5,
+      "_SecUniformDepth02": 0.5,
+      "_SecondSliceGroup": 0.0,
+      "_Smoothness": 0.702,
+      "_SmoothnessLerpHardness": 1.0,
+      "_SmoothnessScale": 1.0,
+      "_SmoothnessTextureChannel": 0.0,
+      "_SpecularHighlights": 1.0,
+      "_SphereTilingTip": 0.0,
+      "_SrcBlend": 1.0,
+      "_Step": 64.0,
+      "_Test01": -0.88,
+      "_ThirdBlockInteriorLight": 0.0,
+      "_ThirdBlockInteriorLightStrength": 1.0,
+      "_ThirdClamp": 0.0,
+      "_ThirdUniformDepth": 0.213,
+      "_Transparency": 0.598,
+      "_UVSec": 0.0,
+      "_UseEngineGeneratedTangent2": 0.0,
+      "_UseFractionalUV": 0.0,
+      "_UseViewPointAsFogCenter": 0.0,
+      "_ZWrite": 1.0
+    },
+    "m_Colors": {
+      "_AtlasIndex": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Color": {
+        "r": 0.77197224,
+        "g": 0.85294116,
+        "b": 0.40138406,
+        "a": 1.0
+      },
+      "_CylinderAxis": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_CylinderCenter": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirtColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 1.0
+      },
+      "_DirtTexTilingOffset": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirtTint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_EmissionColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_FogCenterPos": {
+        "r": 0.0,
+        "g": -0.82,
+        "b": -0.15,
+        "a": 0.0
+      },
+      "_FogColor": {
+        "r": 0.17149654,
+        "g": 0.89705884,
+        "b": 0.7169194,
+        "a": 1.0
+      },
+      "_FogRange": {
+        "r": 0.14,
+        "g": 0.95,
+        "b": 1.2345679,
+        "a": 0.17283951
+      },
+      "_InteriorFarFade": {
+        "r": 100.0,
+        "g": 125.0,
+        "b": 0.04,
+        "a": 4.0
+      },
+      "_InteriorLightColor0": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_InteriorLightFarTint0": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 1.0
+      },
+      "_InteriorLightPos0": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_InteriorOffsetAddend": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_InteriorTilingMultiplier": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_ObjOffset": {
+        "r": -2.355,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 0.0
+      },
+      "_ObjTiling": {
+        "r": 0.57,
+        "g": 0.57,
+        "b": 0.57,
+        "a": 0.0
+      },
+      "_SecAtlasIndex": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_SecBillboardPos": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_SecBillboardSize": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_SecSolidRange": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_TangentOffset": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_TangentTiling": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_ThirdAnim": {
+        "r": 0.5,
+        "g": -2.0,
+        "b": 0.59,
+        "a": 0.93
+      },
+      "_ThirdAtlasIndex": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ThirdClip": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Area_Xm_Prop_DCL_Shineiwujian_04",
+  "Name": "Area_Xm_Prop_DCL_Shineiwujian_04"
+}

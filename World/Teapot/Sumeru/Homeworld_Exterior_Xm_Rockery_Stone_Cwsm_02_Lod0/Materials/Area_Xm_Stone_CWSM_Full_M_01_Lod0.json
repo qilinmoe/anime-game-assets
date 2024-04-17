@@ -1,0 +1,489 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": -880248372199825475,
+    "Name": "miHoYo/Terrain/BlendStone New",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_ErodeMask": {
+        "m_Texture": {
+          "m_FileID": 13,
+          "m_PathID": -748790827872083614,
+          "Name": "Area_Common_NCTerrain_Desert_Tint_02_T4_Mask",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ErodeNoise": {
+        "m_Texture": {
+          "m_FileID": 6,
+          "m_PathID": -3411106608609515622,
+          "Name": "Area_Xm_Stone_DCL_Erode_01_T4_Mask",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_GrassDiffuse": {
+        "m_Texture": {
+          "m_FileID": 13,
+          "m_PathID": -748790827872083614,
+          "Name": "Area_Common_NCTerrain_Desert_Tint_02_T4_Mask",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 10.0,
+          "Y": 10.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_GrassMask": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": 3989220451388711420,
+          "Name": "Area_Xm_Stone_CWSM_01_T4_Tint_SMBE",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MappingTex": {
+        "m_Texture": {
+          "m_FileID": 12,
+          "m_PathID": 8762067573135521694,
+          "Name": "Area_Xm_Stone_CWSM_01_UHD_Mask",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 0.01,
+          "Y": 0.01
+        },
+        "m_Offset": {
+          "X": 0.58,
+          "Y": 0.88
+        }
+      },
+      "_MediumDetailDiffuse": {
+        "m_Texture": {
+          "m_FileID": 5,
+          "m_PathID": -3770402177925655971,
+          "Name": "Area_Xm_Stone_CWSM_01_T4_Diffuse",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 2.0,
+          "Y": 2.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MediumDetailMask_MIDDLE": {
+        "m_Texture": {
+          "m_FileID": 11,
+          "m_PathID": 1549147622167814632,
+          "Name": "Area_Xm_Stone_CWSM_01_T4_SMBE",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MediumDetailNormal_MIDDLE": {
+        "m_Texture": {
+          "m_FileID": 9,
+          "m_PathID": -7595657629622316301,
+          "Name": "Area_Xm_Stone_CWSM_01_T4_Normal",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_NearDetailDiffuse": {
+        "m_Texture": {
+          "m_FileID": 8,
+          "m_PathID": -1672474285246291616,
+          "Name": "Area_Xm_Stone_CWSM_02_T4_Diffuse",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 8.0,
+          "Y": 8.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_NearDetailMask": {
+        "m_Texture": {
+          "m_FileID": 10,
+          "m_PathID": -1186982021144045333,
+          "Name": "Area_Xm_Stone_CWSM_02_T4_SMBE",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_NearDetailNormal_MIDDLE": {
+        "m_Texture": {
+          "m_FileID": 2,
+          "m_PathID": -8605573611454327052,
+          "Name": "Area_Xm_Stone_CWSM_02_T4_Normal",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_StoneDiffuse": {
+        "m_Texture": {
+          "m_FileID": 4,
+          "m_PathID": 8842784387747959527,
+          "Name": "Area_Xm_Stone_CWSM_Full_M_01_Diffuse",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_StoneNormal": {
+        "m_Texture": {
+          "m_FileID": 7,
+          "m_PathID": -1321613690096775385,
+          "Name": "Area_Xm_Stone_CWSM_Full_M_01_Normal",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_TerrainTint": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "Emission_Type": 0.0,
+      "_AdditiveEmission": 0.0,
+      "_BakedShadowBias": 0.0,
+      "_BlendValueFrom": 0.0,
+      "_CullMode": 2.0,
+      "_CutOff": 0.5,
+      "_DefaultSmoothness_Grass": 0.292,
+      "_DefaultSmoothness_Stone": 0.292,
+      "_DeformationFakeAO": 0.5,
+      "_DepthBiasScaled": 3.0,
+      "_DepthBlendAO": 0.776,
+      "_DiffuseBlendIntensity": 0.935,
+      "_DiffuseBlendMethod": 0.0,
+      "_DisableAltitude": 1.0,
+      "_DisableMSAAUVCorrection": 0.0,
+      "_ElementViewEleID": 0.0,
+      "_EmissionRange": 0.1,
+      "_EmissionStrength": 1.0,
+      "_EnableAlphaTest": 0.0,
+      "_EnableCubeReflection": 0.0,
+      "_EnableCustomTint": 0.0,
+      "_EnableDepthBlend": 1.0,
+      "_EnableFixedTiling": 1.0,
+      "_EnableGlobalLayerParams": 1.0,
+      "_EnableGrassCover": 0.0,
+      "_EnableHeightBlend": 1.0,
+      "_EnableHeightErode": 1.0,
+      "_EnableLocalMapping": 0.0,
+      "_EnableMaxTillingScale": 0.0,
+      "_EnablePOM": 0.0,
+      "_EnableRimGlow": 0.0,
+      "_EnableSSS": 0.0,
+      "_EnableSandCover": 1.0,
+      "_EnableSeamGrass": 0.0,
+      "_EnableSecondTex": 0.0,
+      "_EnableSnowBlend": 1.0,
+      "_EnableTerrainTint": 0.0,
+      "_EnableTextureMapping": 1.0,
+      "_EnableWet": 0.0,
+      "_ErodeNoisePow": 2.0,
+      "_ErodeNoiseTill": 0.1,
+      "_ErodeOffset": 4.0,
+      "_ErodeSharpness": 0.3,
+      "_ErodeStoneSeamPow": 3.0,
+      "_ErodeWetFade": 5.23,
+      "_ErodeWetOffset": 0.0,
+      "_ErodeWetSmooth": 0.603,
+      "_FillNormalGaps": 0.0,
+      "_GrassBlendMaskMulVColorB": 0.0,
+      "_GrassCoverColorGradient": 0.0,
+      "_GrassCoverContrast": 0.0,
+      "_GrassCoverNoiseDetailIntensity": 0.0,
+      "_GrassCoverNoiseIntensity": 0.0,
+      "_GrassCoverOffset": 0.0,
+      "_GrassCoverPixelSize": 0.0,
+      "_GrassCoverScale": 0.0,
+      "_GrassCoverThickness": 0.0,
+      "_GrassCoverXPixelSize": 0.0,
+      "_GrassCoverYPixelSize": 0.0,
+      "_GrassNormalMix": 0.0,
+      "_GrassNormalScale": 1.0,
+      "_HeightContrast": 0.1,
+      "_HeightOffset": 1.0,
+      "_HeightRamp": 0.01,
+      "_HeightSpread": 9.0,
+      "_InverseHeight": 0.0,
+      "_InvertBlend": 1.0,
+      "_IsSnowMatID": 0.0,
+      "_MappingBlendIntensity": 0.8,
+      "_MappingSeamPow": 0.15,
+      "_MaskBlendIntensity": 1.0,
+      "_MaskBlendMethod": 0.0,
+      "_MaterialShadowBias": 0.0,
+      "_MaxHeight": 1000.0,
+      "_MediumDarkenIntensity": 0.0,
+      "_MediumDetailDiffuseDistance": 50.0,
+      "_MediumDetailDiffuseDistanceInverse": 0.0039999983,
+      "_MediumDetailDiffuseFade": 1.0,
+      "_MediumDetailNormalScale": 0.5,
+      "_MinHeight": 200.0,
+      "_MulAlbedo": 0.0,
+      "_NearDarkenIntensity": 0.0,
+      "_NearDetailDiffuseDistance": 40.0,
+      "_NearDetailDiffuseDistanceInverse": 0.033333223,
+      "_NearDetailDiffuseFade": 0.6,
+      "_NearDetailNormalScale": 0.3,
+      "_NormalBlendIntensity": 1.0,
+      "_NormalBlendMethod": 0.0,
+      "_NotSnowMatID": 1.0,
+      "_POMHeight": 0.0,
+      "_POMLODBias": -2.0,
+      "_POMNormalScale": 1.0,
+      "_POMShadowBias": -0.02,
+      "_POMShadowScale": 1.0,
+      "_POMShadowTransitionRange": 0.1,
+      "_POMUVMinStep": 0.01,
+      "_ParallaxUVBaseIn": 0.0,
+      "_PolygonOffsetFactor": 0.0,
+      "_PolygonOffsetUnit": 0.0,
+      "_RGPower": 0.1,
+      "_RGStrength": 1.0,
+      "_RainIntensity": 0.3,
+      "_ReceiveShadow": 0.0,
+      "_ReverseTint": 0.0,
+      "_SandNrmBlend": 1.0,
+      "_SeaAltitude": 0.0,
+      "_SeamIntensity": 1.0,
+      "_SeamOffset": 1.2,
+      "_SeamRampOffset": 1.0,
+      "_SeamRampSoft": 90.0,
+      "_SeamSoft": -1.0,
+      "_SingleTill": 0.0,
+      "_SnowAltitudeScale": 1.0,
+      "_SnowIntensity": 1.0,
+      "_SnowOffset": -0.83,
+      "_SnowSoft": 1.0,
+      "_StoneNormalScale": 1.0,
+      "_UVSec": 0.0,
+      "_UseGrassSecondaryUV": 0.0,
+      "_UseMainMaskAlphaAsEmission": 1.0,
+      "_UseMediumDetail": 1.0,
+      "_UseMediumDetailSecondaryUV": 1.0,
+      "_UseNearDetailDiffuse": 1.0,
+      "_UseNearDetailSecondaryUV": 1.0,
+      "_UseSecondaryMaskAlphaAsEmission": 1.0,
+      "_UseStoneMask": 1.0,
+      "_UseTintGrassDiffuse": 0.0,
+      "_VertRForMedium": 1.0,
+      "_WetEndHeight": 0.0,
+      "_WetErodeNoisePow": 4.54,
+      "_WetSmoothnessOffset": 0.0,
+      "_WetStartHeight": 0.0
+    },
+    "m_Colors": {
+      "_Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_EmissionColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_ErodeGrassTint": {
+        "r": -0.007352948,
+        "g": -0.0076773427,
+        "b": -0.0076773427,
+        "a": 1.0
+      },
+      "_ErodeSandTint": {
+        "r": 1.0,
+        "g": 0.78039217,
+        "b": 0.54901963,
+        "a": 0.67058825
+      },
+      "_ErodeWetTint": {
+        "r": 0.64705884,
+        "g": 0.3529412,
+        "b": 0.20784315,
+        "a": 1.0
+      },
+      "_GrassColor": {
+        "r": 1.0,
+        "g": 0.8235294,
+        "b": 0.67058825,
+        "a": 1.0
+      },
+      "_GrassCoverEdgeColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_GrassCoverNoiseDetailST": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_MainColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MappingAltitudeMaxTint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MappingAltitudeMinTint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MappingTint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_RGColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_SantTint": {
+        "r": 1.0,
+        "g": 0.78039217,
+        "b": 0.54901963,
+        "a": 0.67058825
+      },
+      "_SnowDir": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_StoneColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_TintExtents": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_TintGrassDiffuseColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_WetColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Area_Xm_Stone_CWSM_Full_M_01_Lod0",
+  "Name": "Area_Xm_Stone_CWSM_Full_M_01_Lod0"
+}

@@ -1,0 +1,362 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 160704622117207590,
+    "Name": "Nature/Afs Simple Tree v4 New",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_BumpMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ColorSetLUT": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DiffuseTex": {
+        "m_Texture": {
+          "m_FileID": 2,
+          "m_PathID": -5524280945283182479,
+          "Name": "Homeworld_Exterior_Xm_Plant_Tree_Qqstyle_01_Leaf_Diffuse",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MainTex": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -4225616727383333971,
+          "Name": "Homeworld_Exterior_Xm_Plant_Tree_Qqstyle_01_Leaf_LSAB",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "Emission_Type": 1.0,
+      "Wind": 1.0,
+      "_AOIntensity": 1.0,
+      "_AdditiveEmission": 0.0,
+      "_AfsXtraBending": 0.0,
+      "_AlphaLength": 0.0,
+      "_AlphaOffset": 0.0,
+      "_AmplitudeStrength": 1.0,
+      "_AmplitudeStrengthSMW": 1.0,
+      "_AnimationSpeed": 1.0,
+      "_BackDiffuseOffset": 0.1,
+      "_BackDiffuseStrength": 0.75,
+      "_BendSpeed": 0.1,
+      "_BendSpeedMax": 0.3,
+      "_BillboradCombineOn": 0.0,
+      "_ClipEnhance": 0.2,
+      "_ClipEnhanceDistance": 100.0,
+      "_CollisionOn": 1.0,
+      "_ColorLut": 0.0,
+      "_ColumnCount": 1.0,
+      "_ColumnID": 1.0,
+      "_Cull": 2.0,
+      "_CullMode": 0.0,
+      "_Culling": 2.0,
+      "_CustomDitherAlpha": 0.0,
+      "_CustomSSSProfile": 0.0,
+      "_CutOff": 0.5,
+      "_CutOffset": 1.0,
+      "_Cutoff": 0.3,
+      "_Cutoffset": 0.001,
+      "_DarkColorHADD": 0.0,
+      "_DepthBiasScaled": 2.5,
+      "_DiffuseTex": 0.0,
+      "_DisableHalfLambert": 0.0,
+      "_DisableWorldRand": 0.0,
+      "_DitherAlpha": 1.0,
+      "_DitherReverse": 0.0,
+      "_Doc": 0.0,
+      "_DownBendIntensity": 0.0079,
+      "_DownBendIntensityMax": 0.1,
+      "_DownBendVariance": 0.128,
+      "_Dx11ShaderPsScore": 0.0,
+      "_Dx11ShaderScore": 0.0,
+      "_Dx11ShaderVsScore": 0.0,
+      "_ElementViewEleID": 0.0,
+      "_EmissionRange": 0.001,
+      "_EmissionStrength": 5.95,
+      "_EnableDepthBlend": 0.0,
+      "_EnableEmission": 0.0,
+      "_EnableEmissionAnimation": 0.0,
+      "_EnableFloatWithShake": 0.0,
+      "_EnableManualWindDir": 0.0,
+      "_EnableNormalMap": 0.0,
+      "_EnableSSS": 0.0,
+      "_EnableSceneWindAniOn": 0.0,
+      "_EnableShake": 0.0,
+      "_FaceGeoRangeXZ": 10.0,
+      "_FaceGeoRangeY": 20.0,
+      "_FaceGeometry": 0.0,
+      "_FlipBackfaceNormal": 0.0,
+      "_FlowerHeight": 1.0,
+      "_FlowerMaxOffset": 1.0,
+      "_FoldX": 1.0,
+      "_FoldY": 1.0,
+      "_ForwardDiffuseOffset": 0.1,
+      "_ForwardDiffuseStrength": 0.8,
+      "_Frequency": 1.0,
+      "_Gloss": 0.1,
+      "_Gust": 0.12,
+      "_Help": 0.0,
+      "_IsDisableLightClamping": 0.0,
+      "_IsInsertTreeLod": 0.0,
+      "_IsNonDirectionalCollision": 0.0,
+      "_LTDistortion": 0.54,
+      "_LTPower": 0.0,
+      "_LTScale": 0.015,
+      "_LUTIndex": 1.0,
+      "_LocalFrequency": 1.0,
+      "_LocalFrequencySMW": 1.0,
+      "_LocalStrength": 1.0,
+      "_LocalStrengthSMW": 5.0,
+      "_MaterialShadowBias": 0.0,
+      "_MaxAmplitude": 10.0,
+      "_MulAlbedo": 0.0,
+      "_NoiseDirScale": 0.3,
+      "_NoiseIntensity": 0.99,
+      "_NoiseMinIntensity": 0.0,
+      "_NoiseRange": 1.5,
+      "_PolygonOffsetFactor": 0.0,
+      "_PolygonOffsetUnit": 0.0,
+      "_PushStrength": 0.2,
+      "_RainIntensity": 0.0,
+      "_ReceiveShadow": 0.0,
+      "_RowCount": 1.0,
+      "_RowID": 1.0,
+      "_SceneWind": 0.0,
+      "_ShadowBias": 0.0,
+      "_ShadowHardness": -0.4,
+      "_ShakeAmplitudeStrength": 1.0,
+      "_ShakeFold": 0.0,
+      "_ShakeFrequency": 1.0,
+      "_ShakeMaxAmplitude": 10.0,
+      "_SideBendIntensity": 0.1,
+      "_SideBendIntensityMax": 0.4,
+      "_SideBendSoftness": 0.5,
+      "_SideBendVariance": 0.4,
+      "_SimpleLTBackFaceOnly": 0.0,
+      "_SimpleLTNormalScale": 1.0,
+      "_SimpleLTScale": 0.0,
+      "_SpecularPower": 0.0,
+      "_SpecularReflectivity": 0.197,
+      "_SpecularScale": 2.0,
+      "_SquashAmount": 1.0,
+      "_StateChangeValue": 0.0,
+      "_TiltControl": 0.0,
+      "_TiltControlSMW": 0.0,
+      "_TopColorOffset": -1.0,
+      "_TopColorScale": 0.5,
+      "_TranslucencyViewDependency": 0.7,
+      "_UseBushShadowIntensity": 0.0,
+      "_UseColorLut": 0.0,
+      "_UseDiffuseTex": 1.0,
+      "_UseFlowerOffset": 0.0,
+      "_UseMotionWind": 0.0,
+      "_UseSceneEmission": 0.0,
+      "_UseSimpleLT": 0.0,
+      "_UseSimpleLTOnPC": 0.0,
+      "_UsevertexColorAsCenter": 0.0,
+      "_UsingCityRoot": 0.0,
+      "_UsingDither": 0.0,
+      "_UsingDitherAlpha": 0.0,
+      "_VerticalBillBoarding": 0.2,
+      "_WindIntensityByColorA": 0.95,
+      "_WindQuality": 0.0,
+      "_WindRatio": 1.0
+    },
+    "m_Colors": {
+      "_AOColor": {
+        "r": 0.39446363,
+        "g": 0.7831467,
+        "b": 0.83823526,
+        "a": 1.0
+      },
+      "_BranchColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_DarkColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_DarkColorRGBADD": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DitherCityRoot": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionColor": {
+        "r": 0.41911763,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_HueVariation": {
+        "r": 1.0,
+        "g": 0.5,
+        "b": 0.0,
+        "a": 0.1
+      },
+      "_LeafColor": {
+        "r": 0.34558824,
+        "g": 0.4337728,
+        "b": 0.6911765,
+        "a": 1.0
+      },
+      "_LeafColor2": {
+        "r": 0.23015787,
+        "g": 0.54692906,
+        "b": 0.72794116,
+        "a": 1.0
+      },
+      "_ManualWindDir": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_MotionDumpVector": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_MoveDirVector": {
+        "r": 0.1,
+        "g": 0.02,
+        "b": 0.1,
+        "a": 0.0
+      },
+      "_MoveVector": {
+        "r": 0.1,
+        "g": 0.02,
+        "b": 0.1,
+        "a": 0.0
+      },
+      "_NoiseTilling": {
+        "r": 0.01,
+        "g": 0.01,
+        "b": 0.088,
+        "a": 0.011
+      },
+      "_ShakeMoveVector": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1,
+        "a": 0.0
+      },
+      "_ShakeParam": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_SpecularReflectivityColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_TopColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_TopColorVector": {
+        "r": 0.0,
+        "g": 50.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_TranslucencyColor": {
+        "r": 0.73,
+        "g": 0.85,
+        "b": 0.40999997,
+        "a": 1.0
+      },
+      "_TreeInstanceColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_TreeInstanceScale": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_VertexColorMul": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Homeworld_Exterior_Xm_Plant_Tree_Qqstyle_02_Leaf_Lod0",
+  "Name": "Homeworld_Exterior_Xm_Plant_Tree_Qqstyle_02_Leaf_Lod0"
+}

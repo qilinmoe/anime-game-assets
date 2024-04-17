@@ -1,0 +1,368 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 611632999284730108,
+    "Name": "miHoYo/Scene/TransparentGlasses",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_CubeMap": {
+        "m_Texture": {
+          "m_FileID": 2,
+          "m_PathID": -3848773971121279809,
+          "Name": "",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DetailNormalTex": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -8625870579755113713,
+          "Name": "Area_Common_Build_Glass_01_T4_Normal",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": -200.0,
+          "Y": -200.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.01
+        }
+      },
+      "_DistortTex": {
+        "m_Texture": {
+          "m_FileID": 4,
+          "m_PathID": 8334193770623872142,
+          "Name": "Area_Common_Build_Glass_01_T4_Noise",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "_MainTex": {
+        "m_Texture": {
+          "m_FileID": 5,
+          "m_PathID": -9208399602476141190,
+          "Name": "Homeworld_Interior_Xm_Decoration_Prop_DesertRose_01_Mask",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_NormalTex": {
+        "m_Texture": {
+          "m_FileID": 6,
+          "m_PathID": 5370761890597806113,
+          "Name": "Homeworld_Interior_Xm_Decoration_Prop_DesertRose_01_Normal",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ParallaxTexture": {
+        "m_Texture": {
+          "m_FileID": 7,
+          "m_PathID": -9064009463501216167,
+          "Name": "Area_Common_Build_Glass_01_T4_Mask",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SMBETex": {
+        "m_Texture": {
+          "m_FileID": 8,
+          "m_PathID": -7146840771277722889,
+          "Name": "Homeworld_Interior_Xm_Decoration_Prop_DesertRose_01_SMBE",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SequenceRippleTex": {
+        "m_Texture": {
+          "m_FileID": 9,
+          "m_PathID": -3344570477616633348,
+          "Name": "Eff_Stages_Area_Common_WaterRipple_01_Mask",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.5,
+          "Y": 1.5
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "_BehindDepthFadeDistance": 10.0,
+      "_BlendOP": 0.0,
+      "_BumpScale": 1.0,
+      "_ColorShadowIntensity": 2.0,
+      "_ColoredShadowInt": 1.0,
+      "_CubeDisableFresnel": 0.0,
+      "_CubeMip": 1.0,
+      "_Cull": 2.0,
+      "_CutOff": 1.0,
+      "_Cutoff": 0.5,
+      "_DetailNormalMapScale": 1.0,
+      "_DetailUse2U": 1.0,
+      "_DisableSaturateToggle": 0.0,
+      "_DistanceOffset": 0.0,
+      "_DistanceScale": 0.0,
+      "_DistortBias": 400.0,
+      "_DistortDistanceOffset": 0.0,
+      "_DistortDistanceScale": 0.0,
+      "_DistortGScaler": 1.0,
+      "_DistortRScaler": 1.0,
+      "_DistortScale": 0.0,
+      "_DistortZwrite": 1.0,
+      "_DstBlend": 0.0,
+      "_DstBlendMode": 10.0,
+      "_EnableBehindDepthFade": 0.0,
+      "_EnableCustomSpec": 0.0,
+      "_EnableDistortDistance": 0.0,
+      "_EnableLocalLight": 1.0,
+      "_EnableReflectionProbe": 1.0,
+      "_EnableSSR": 0.0,
+      "_Enableimposter": 0.0,
+      "_ExactSphereMappingToggle": 0.0,
+      "_ExactSphereScale": 1.0,
+      "_FresnelIntensity": 15.0,
+      "_FresnelPow": 2.6,
+      "_GlossMapScale": 1.0,
+      "_Glossiness": 0.5,
+      "_GlossyReflections": 1.0,
+      "_IOR": 1.52,
+      "_LightIntensityToAlpha": 0.834,
+      "_MaterialLayerTip": 0.0,
+      "_Metallic": 0.0,
+      "_Mode": 0.0,
+      "_NormalIntensity": 50.0,
+      "_OcclusionStrength": 1.0,
+      "_Parallax": 0.02,
+      "_ParallaxOffset": 0.0,
+      "_ParallaxScale": 0.15,
+      "_PolygonOffsetFactor": 3.5,
+      "_PolygonOffsetUnit": -1.7,
+      "_ReceiveMainLightIntensity": 0.55,
+      "_ReceiveMainLightIntensityMin": 0.55,
+      "_RecieveShadowIntensity": 0.158,
+      "_ReflectionIntensityByLight": 0.0,
+      "_Ripple02Rotate": 0.69,
+      "_RippleTillingScale": 0.3,
+      "_SecondNormalIntensity": 1.0,
+      "_SecondSmoothIntensity": 1.0,
+      "_SmoothIntensity": 1.0,
+      "_SmoothnessTextureChannel": 0.0,
+      "_SpecIntensity": 0.0,
+      "_SpecPower": 1.0,
+      "_SpecularHighlights": 1.0,
+      "_SrcBlend": 1.0,
+      "_SrcBlendMode": 5.0,
+      "_SsrDistortion": 0.2,
+      "_SsrDistortionShoreInverse": 0.27,
+      "_SsrEnableDepthCorrection": 1.0,
+      "_SsrFresnelPow": 2.5,
+      "_SsrIntensity": 0.233,
+      "_SsrReflectionIntensity": 0.7,
+      "_SsrShoreReflectionFadeInverse": 0.456,
+      "_UVSec": 0.0,
+      "_UseVertexNormal": 0.0,
+      "_WetSmoothnessOffset": 1.0,
+      "_ZWrite": 1.0,
+      "_Zwrite": 1.0
+    },
+    "m_Colors": {
+      "_BehindDepthFadeColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_BehindDepthFadeColorDown": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_BehindDepthFadeColorLerp": {
+        "r": -1.0,
+        "g": 1.0,
+        "b": 0.5,
+        "a": -0.5
+      },
+      "_CharacterReflectionColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_CubeMapScale": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_CustomSpecColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_CustomWorldView": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DarkColor": {
+        "r": 0.4,
+        "g": 0.4,
+        "b": 0.4,
+        "a": 1.0
+      },
+      "_DarkMinColor": {
+        "r": 0.74264705,
+        "g": 0.74264705,
+        "b": 0.74264705,
+        "a": 1.0
+      },
+      "_DistortTexST": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_ExactSpherePos": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 0.0
+      },
+      "_LightColor": {
+        "r": 0.47199392,
+        "g": 0.6433584,
+        "b": 0.71323526,
+        "a": 1.0
+      },
+      "_LightMaxColor": {
+        "r": 1.2,
+        "g": 1.2,
+        "b": 1.2,
+        "a": 0.0
+      },
+      "_MainColor": {
+        "r": 0.9191176,
+        "g": 0.7501622,
+        "b": 0.893483,
+        "a": 1.0
+      },
+      "_MiddleColor": {
+        "r": 0.6102941,
+        "g": 0.6102941,
+        "b": 0.6102941,
+        "a": 1.0
+      },
+      "_ReceiveMainLightIntensityMinColor": {
+        "r": 0.64705884,
+        "g": 0.64705884,
+        "b": 0.64705884,
+        "a": 0.0
+      },
+      "_ReflectionColor": {
+        "r": 0.61,
+        "g": 0.57326955,
+        "b": 0.45567003,
+        "a": 1.0
+      },
+      "_RippleColor": {
+        "r": 4.0,
+        "g": 4.0,
+        "b": 4.0,
+        "a": 1.0
+      },
+      "_SecondMainColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_SecondSpecularColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_SpecularColor": {
+        "r": 0.24805361,
+        "g": 0.25815237,
+        "b": 0.2720588,
+        "a": 1.0
+      },
+      "_WetColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Homeworld_Interior_Xm_Decoration_Prop_DesertRose_03",
+  "Name": "Homeworld_Interior_Xm_Decoration_Prop_DesertRose_03"
+}
