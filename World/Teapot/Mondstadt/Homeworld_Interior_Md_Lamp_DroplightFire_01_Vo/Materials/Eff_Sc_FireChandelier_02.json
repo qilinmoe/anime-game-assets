@@ -1,0 +1,132 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 1816540456797764357,
+    "Name": "",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_BaseTex": {
+        "m_Texture": {
+          "m_FileID": 2,
+          "m_PathID": 1566004715021091306,
+          "Name": "Eff_MultiShape_01",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MaskTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_NoiseTex": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": 5792826187844658135,
+          "Name": "Eff_Turbulence_09",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 0.23,
+          "Y": 0.23
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "_Alpha": 1.0,
+      "_AlphaBrightness": 1.0,
+      "_AlphaFadeByDistanceToggle": 0.0,
+      "_AlphaFadeDistance": 2.0,
+      "_AlphaFadeDistanceInvertToggle": 0.0,
+      "_AlphaFadeOffset": 0.0,
+      "_AlphaSoftedgePower": 1.0,
+      "_AlphaSoftedgeScale": 1.0,
+      "_AlphaSoftedgeToggle": 0.0,
+      "_BaseTexAlphaBrightness": 1.0,
+      "_BaseTexAlphaChannelSwitch": 0.0,
+      "_BaseTexColorChannelSwitch": 1.0,
+      "_BaseTexURandomToggle": 0.0,
+      "_BaseTexVRandomToggle": 0.0,
+      "_BaseTex_Uspeed": 0.0,
+      "_BaseTex_Vspeed": 0.0,
+      "_BillBoardBias": -0.5,
+      "_BillBoardScale": 2.0,
+      "_BlendOP": 0.0,
+      "_ColorBrightness": 13.87,
+      "_Cull": 0.0,
+      "_DepthFade": 0.001,
+      "_DepthThresh": 2.0,
+      "_DstBlendMode": 1.0,
+      "_EffectedByFog": 0.0,
+      "_MHYZBias": 0.0,
+      "_MaskTexBlendModeToggle": 0.0,
+      "_MaskTexBrightness": 1.0,
+      "_MaskTexChannelSwitch": 0.0,
+      "_MaskTexToggle": 0.0,
+      "_MaskTex_Uspeed": 0.0,
+      "_MaskTex_Vspeed": 0.0,
+      "_MotionVectorsAlphaCutoff": 0.1,
+      "_NoiseIntensityOnMask": 0.0,
+      "_NoiseTexChannelSwitch": 0.0,
+      "_NoiseTexToggle": 1.0,
+      "_NoiseTexUVRandomToggle": 0.0,
+      "_NoiseTex_Uspeed": 0.26,
+      "_NoiseTex_Vspeed": 0.56,
+      "_Noise_Brightness": -0.1,
+      "_Noise_Offset": 0.0,
+      "_PolygonOffsetFactor": 0.0,
+      "_PolygonOffsetUnit": 0.0,
+      "_SOFTPARTICLES": 0.0,
+      "_SrcBlendMode": 5.0,
+      "_Ztest": 4.0,
+      "_Zwrite": 0.0
+    },
+    "m_Colors": {
+      "_DayColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MainColor": {
+        "r": 0.5,
+        "g": 0.35801202,
+        "b": 0.20588222,
+        "a": 1.0
+      },
+      "_MeshParticleColorArray": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Eff_Sc_FireChandelier_02",
+  "Name": "Eff_Sc_FireChandelier_02"
+}

@@ -1,0 +1,679 @@
+{
+  "m_Shader": {
+    "m_FileID": 4,
+    "m_PathID": -983635422896655500,
+    "Name": "miHoYo/Scene/Base New",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_BumpMap": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": 548222059400544059,
+          "Name": "Property_Ani_Prop_AlchemySimRefine_01_Normal",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DepthBlendNoiseTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DetailMask": {
+        "m_Texture": {
+          "m_FileID": 5,
+          "m_PathID": -8517017891745547196,
+          "Name": "Property_Ani_Prop_AlchemySimRefine_01_SMBE",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_EmissionCurve": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ErodeMask": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ErodeNoise": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MainTex": {
+        "m_Texture": {
+          "m_FileID": 1,
+          "m_PathID": 583319633418348703,
+          "Name": "Property_Ani_Prop_AlchemySimRefine_01_Diffuse",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_POMHeightMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_POMRCSMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ReflectionCube": {
+        "m_Texture": {
+          "m_FileID": 2,
+          "m_PathID": 1432027382283305587,
+          "Name": "",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SSSTranslucencyMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecondaryBumpMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecondaryDetailMask": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecondaryTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ShellHeight": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ThirdBumpMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ThirdDetailMask": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ThirdTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "Emission_Type": 0.0,
+      "INTERIOR_ROOM": 1.0,
+      "SECOND_INTERIOR": 0.0,
+      "THIRD_INTERIOR": 1.0,
+      "_AbstractGroup": 0.0,
+      "_AdditiveEmission": 0.0,
+      "_BakedShadowBias": 0.0,
+      "_BlendValueFrom": 1.0,
+      "_BlendValueFromThird": 0.0,
+      "_BrickBlend": 0.0,
+      "_BrickRandomClip": 0.0,
+      "_BrickSmoothStepEnd": 0.0,
+      "_BrickSmoothStepStart": 0.0,
+      "_BumpScale": 1.0,
+      "_ClampInteriorPos": 0.0,
+      "_CubeMapIntensity": 1.0,
+      "_CullMode": 2.0,
+      "_CustomSSSProfile": 0.0,
+      "_CutOff": 0.5,
+      "_Cutoff": 0.5,
+      "_DepthBiasScaled": 4.0,
+      "_DepthBlendHeightmapScale": 1.0,
+      "_DepthBlendNoiseIntensity": 1.0,
+      "_DepthBlendPow": 0.5,
+      "_DetailNormalMapScale": 1.0,
+      "_DiffuseBlendIntensity": 0.5,
+      "_DiffuseBlendIntensityThird": 1.0,
+      "_DiffuseBlendMethod": 1.0,
+      "_DiffuseBlendMethodThird": 0.0,
+      "_DirtDetailBlendIntensity": 0.7,
+      "_DirtDetailBlendMethod": 1.0,
+      "_DirtDiffuseBlendIntensity": 1.0,
+      "_DirtGroup": 1.0,
+      "_DirtGroupNew": 0.0,
+      "_DirtInteriorBlendIntensity": 0.0,
+      "_DirtInteriorFarFadeIntensity": 0.0,
+      "_DirtUVSet": 1.0,
+      "_DisableMSAAUVCorrection": 0.0,
+      "_DisableNonGlassMaskWhenLightingOn": 0.0,
+      "_DstBlend": 0.0,
+      "_Dx11ShaderPsScore": 231.0,
+      "_Dx11ShaderScore": 334.0,
+      "_Dx11ShaderVsScore": 102.0,
+      "_ElementViewEleID": 0.0,
+      "_EmissionIntensityOffset": 1.0,
+      "_EmissionRange": 0.01,
+      "_EmissionStrength": 6.0,
+      "_EnableAlphaTest": 0.0,
+      "_EnableCubeReflection": 1.0,
+      "_EnableCustomConditionEmission": 0.0,
+      "_EnableDepthBlend": 1.0,
+      "_EnableDepthBlendNoise": 0.0,
+      "_EnableDepthBlendSpecTweak": 0.0,
+      "_EnableExtraLighting": 1.0,
+      "_EnableGlobalLightGlimmer": 0.0,
+      "_EnableHeightBlend": 1.0,
+      "_EnableHeightErode": 0.0,
+      "_EnableInteriorLight": 1.0,
+      "_EnableLocalLightGlimmer": 0.0,
+      "_EnablePOM": 0.0,
+      "_EnableRCSM": 1.0,
+      "_EnableRimGlow": 0.0,
+      "_EnableSSS": 0.0,
+      "_EnableSandBlend": 0.0,
+      "_EnableSecondTex": 0.0,
+      "_EnableShell": 0.0,
+      "_EnableThirdHeightBlend": 0.0,
+      "_EnableThirdTex": 0.0,
+      "_ErodeMaskTill": 0.1,
+      "_ErodeNoisePow": 0.0,
+      "_ErodeNoiseTill": 0.1,
+      "_ErodeOffset": 0.25,
+      "_ErodeSharpness": 0.5,
+      "_ErodeStoneSeamPow": 0.5,
+      "_ErodeWetFade": 2.0,
+      "_ErodeWetOffset": 1.0,
+      "_ErodeWetSmooth": 0.0,
+      "_ExcludeWetTint": 0.0,
+      "_FillNormalGaps": 0.0,
+      "_FirstSliceGroup": 0.0,
+      "_FixSphereRoomNoneIntersectionArea": 0.0,
+      "_FlareType": 0.0,
+      "_GlossMapScale": 1.0,
+      "_Glossiness": 0.5,
+      "_GlossyReflections": 1.0,
+      "_HeightContrast": 0.055,
+      "_HeightOffset": 0.61,
+      "_HeightSpread": 9.0,
+      "_Help": 0.0,
+      "_IgnoreRoomRatio": 1.0,
+      "_InteiorColorDiluteInLighting": 0.125,
+      "_InteriorColorMultiplier": 6.0,
+      "_InteriorCommonGroup": 0.0,
+      "_InteriorCubeLOD": 0.0,
+      "_InteriorFade": 1.0,
+      "_InteriorFadePow": 6.64,
+      "_InteriorFogGroup": 0.0,
+      "_InteriorFogGroupNew": 0.0,
+      "_InteriorLightAtten0": 0.0,
+      "_InteriorLightAttenTOD": 0.0,
+      "_InteriorLightFarIntensity0": 0.553,
+      "_InteriorLightGroup": 0.0,
+      "_InteriorLightIntensity0": 30.0,
+      "_InteriorLightRange0": 0.199996,
+      "_InteriorMobileGain": 1.0,
+      "_InteriorMobilePriority": 1.0,
+      "_InteriorMobilePriorityTip": 0.0,
+      "_InteriorNormalMultiplier": 1.94,
+      "_InteriorRoomGroup": 0.0,
+      "_InteriorTint": 1.0,
+      "_InteriorTintRamp": 0.0,
+      "_InteriorUVSet": 0.0,
+      "_InverseHeight": 0.0,
+      "_InverseThirdHeight": 0.0,
+      "_InvertBlend": 1.0,
+      "_InvertBlendThird": 0.0,
+      "_IsObjSpace": 1.0,
+      "_KeepSpecularForNonGlassArea": 1.0,
+      "_LowerTransparencyWhenLightingOffControlledByMPB": 1.0,
+      "_MaskBlendIntensity": 1.0,
+      "_MaskBlendIntensityThird": 1.0,
+      "_MaskBlendMethod": 0.0,
+      "_MaskBlendMethodThird": 0.0,
+      "_MaterialShadowBias": 0.0,
+      "_Metallic": 0.0,
+      "_MobileReflRamp": 0.0,
+      "_Mode": 0.0,
+      "_MulAlbedo": 1.0,
+      "_NonGlassAreaThreshold": 0.5,
+      "_NormalBlendIntensity": 0.0,
+      "_NormalBlendIntensityThird": 1.0,
+      "_NormalBlendMethod": 1.0,
+      "_NormalBlendMethodThird": 0.0,
+      "_OcclusionStrength": 1.0,
+      "_OverrideMobileLODReflectionColor": 0.0,
+      "_POMHeight": 0.0,
+      "_POMLODBias": -2.0,
+      "_POMNormalScale": 1.0,
+      "_POMShadowBias": -0.02,
+      "_POMShadowScale": 1.0,
+      "_POMShadowTransitionRange": 0.1,
+      "_POMUVMinStep": 0.01,
+      "_Parallax": 0.02,
+      "_PolygonOffsetFactor": 0.0,
+      "_PolygonOffsetUnit": 0.0,
+      "_PropConditionsObjPath": 0.0,
+      "_RGPower": 0.1,
+      "_RGStrength": 1.0,
+      "_RainIntensity": 0.2,
+      "_ReceiveShadow": 0.0,
+      "_ReflAndInteriorInGeomPass": 0.0,
+      "_ReflectionGroup": 0.0,
+      "_ReverseZDir": 0.0,
+      "_RoomMaxDepth01": 0.678,
+      "_ScaleRoomByCenter": 0.0,
+      "_SecBillboardDir": 1.0,
+      "_SecSolidJitterScale": 1.0,
+      "_SecTexWithSand": 0.0,
+      "_SecUniformDepth": 1.0,
+      "_SecUniformDepth02": 0.5,
+      "_SecondSliceGroup": 0.0,
+      "_ShellAO": 0.9,
+      "_ShellBias": 0.0,
+      "_ShellCountScale": 0.0,
+      "_ShellFadeMaxLength": 0.0,
+      "_ShellLODEndDist": 40.0,
+      "_ShellLODStartDist": 10.0,
+      "_ShellMaxLength": 0.0,
+      "_SmoothnessLerpHardness": 1.0,
+      "_SmoothnessScale": 1.0,
+      "_SmoothnessTextureChannel": 0.0,
+      "_SpecularHighlights": 1.0,
+      "_SphereTilingTip": 0.0,
+      "_SrcBlend": 1.0,
+      "_ThirdBlockInteriorLight": 0.0,
+      "_ThirdBlockInteriorLightStrength": 1.0,
+      "_ThirdClamp": 0.0,
+      "_ThirdHeightContrast": 0.0,
+      "_ThirdHeightOffset": 0.0,
+      "_ThirdHeightSpread": 1.0,
+      "_ThirdUniformDepth": 0.453,
+      "_Transparency": 0.01,
+      "_UVSec": 0.0,
+      "_UVSecThird": 0.0,
+      "_UseEngineGeneratedTangent2": 0.0,
+      "_UseFractionalUV": 0.0,
+      "_UseMainMaskAlphaAsEmission": 1.0,
+      "_UseSecondaryMaskAlphaAsEmission": 1.0,
+      "_UseThirdMaskAlphaAsEmission": 1.0,
+      "_UseViewPointAsFogCenter": 0.0,
+      "_WetErodeNoisePow": 0.0,
+      "_ZWrite": 1.0
+    },
+    "m_Colors": {
+      "_AtlasIndex": {
+        "r": 2.0,
+        "g": 2.0,
+        "b": 2.0,
+        "a": 1.0
+      },
+      "_Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_CustomMobileLODReflectionColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_DirtColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_DirtTexTilingOffset": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionColor": {
+        "r": 0.9465517,
+        "g": 0.875,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_ErodeGrassTint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_ErodeSandTint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_ErodeWetTint": {
+        "r": 0.75,
+        "g": 0.75,
+        "b": 0.75,
+        "a": 1.0
+      },
+      "_FogCenterPos": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FogColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_FogRange": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_InteriorFarFade": {
+        "r": 25.0,
+        "g": 35.0,
+        "b": 0.1,
+        "a": 2.5
+      },
+      "_InteriorLightColor0": {
+        "r": 0.9419875,
+        "g": 0.9614769,
+        "b": 0.9632353,
+        "a": 1.0
+      },
+      "_InteriorLightFarTint0": {
+        "r": 0.7132353,
+        "g": 0.7132353,
+        "b": 0.7132353,
+        "a": 1.0
+      },
+      "_InteriorLightPos0": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": -0.5,
+        "a": 0.0
+      },
+      "_InteriorOffsetAddend": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_InteriorTilingMultiplier": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_ObjOffset": {
+        "r": 0.5,
+        "g": 4.5,
+        "b": 2.5,
+        "a": 0.0
+      },
+      "_ObjTiling": {
+        "r": 0.06666667,
+        "g": 0.06666667,
+        "b": 0.125,
+        "a": 0.0
+      },
+      "_RGColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_SecAtlasIndex": {
+        "r": 2.0,
+        "g": 2.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_SecBillboardPos": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_SecBillboardSize": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_SecSolidRange": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_TangentOffset": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_TangentTiling": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_ThirdAnim": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ThirdAtlasIndex": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ThirdClip": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Property_Ani_Prop_AlchemySimRefine_01",
+  "Name": "Property_Ani_Prop_AlchemySimRefine_01"
+}

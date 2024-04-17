@@ -1,0 +1,1017 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": -5416499531483857785,
+    "Name": "miHoYo/Uber/EffectStages/Effect_Uber_InteriorWater",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_AlphaCurve": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_BaseTex": {
+        "m_Texture": {
+          "m_FileID": 2,
+          "m_PathID": 583319633418348703,
+          "Name": "Property_Ani_Prop_AlchemySimRefine_01_Diffuse",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_CubeMap": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -8197668578806510694,
+          "Name": "",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DayColor": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_InteriorSphereTex": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -8197668578806510694,
+          "Name": "",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_InteriorTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MatCap": {
+        "m_Texture": {
+          "m_FileID": 4,
+          "m_PathID": -4075169053979781653,
+          "Name": "Eff_Matcap_Glass_03",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_NoiseTex": {
+        "m_Texture": {
+          "m_FileID": 5,
+          "m_PathID": 8475763778195697380,
+          "Name": "Eff_Sc_Smoke_CloudPlane_02",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_NormalTex": {
+        "m_Texture": {
+          "m_FileID": 6,
+          "m_PathID": 4350822322138330191,
+          "Name": "Area_Common_Build_Whitewall_01_Normal",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ParallaxNoiseMap": {
+        "m_Texture": {
+          "m_FileID": 7,
+          "m_PathID": 8634343964822652671,
+          "Name": "Indoor_Fd_Prop_Hotel_Jiqi_A_01b_Diffuse",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecColor": {
+        "m_Texture": {
+          "m_FileID": 8,
+          "m_PathID": 2340386857903388761,
+          "Name": "Property_Ani_Prop_AlchemySimBottle_01_02_Test",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecSolidHeightMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecondCubeMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ThirdCubeMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "Emission_Type": 1.0,
+      "INTERIOR_ROOM": 1.0,
+      "SECOND_INTERIOR": 2.0,
+      "_AdditiveEmission": 0.0,
+      "_Alpha": 1.0,
+      "_ApplyAlphaCurve": 0.5,
+      "_BakedShadowBias": 0.0,
+      "_BaseRandomNoiseIntensity": 1.0,
+      "_BaseRandomNoiseSeed": 1024.0,
+      "_BaseRandomNoiseToggle": 0.0,
+      "_BaseTexAlphaBrightness": 1.0,
+      "_BaseTexAlphaChannelSwitch": 3.0,
+      "_BaseTexColorChannelSwitch": 2.0,
+      "_BaseTexNoiseToggle": 0.0,
+      "_BaseTexTintScaler": 1.0,
+      "_BaseTexURandomToggle": 0.0,
+      "_BaseTexUVSwitch": 0.0,
+      "_BaseTexVRandomToggle": 0.0,
+      "_BaseTex_SamplerType": 0.0,
+      "_BaseTex_Uoffset": 0.0,
+      "_BaseTex_Uspeed": 0.0,
+      "_BaseTex_Voffset": 0.0,
+      "_BaseTex_Vspeed": 0.0,
+      "_BaseTurbulentDistanceScale": 0.0,
+      "_BendSpeed": 0.05,
+      "_BendSpeedMax": 0.15,
+      "_BlendValueFrom": 0.0,
+      "_BlendValueFromThird": 0.0,
+      "_BrickBlend": 0.0,
+      "_BrickRandomClip": 0.0,
+      "_BrickSmoothStepEnd": 0.0,
+      "_BrickSmoothStepStart": 0.0,
+      "_BumpScale": 1.0,
+      "_CamDistanceFadeOffset": -2.3,
+      "_CamDistanceFadeScale": -14.02,
+      "_CubeMapBrightness": 0.47,
+      "_CubeMapDirInverseToggle": 0.0,
+      "_CubeMapIntensity": 1.0,
+      "_CubeMap_SamplerType": 0.0,
+      "_Cull": 2.0,
+      "_CullMode": 2.0,
+      "_CustomSSSProfile": 0.0,
+      "_CutOff": 0.0,
+      "_Cutoff": 0.5,
+      "_DepthBiasScaled": 0.6,
+      "_DetailBlendMethod": 2.0,
+      "_DetailFallOffPower": 6.55,
+      "_DetailFallOffScale": 1.0,
+      "_DetailFlowTexScale": 3.0,
+      "_DetailIntensity": 3.0,
+      "_DetailNormalMapScale": 1.0,
+      "_DetailShape0Channel": 0.0,
+      "_DetailShape1Channel": 2.0,
+      "_DetialGDepthFade": 0.0,
+      "_DetialGDepthOffset": 0.19,
+      "_DetialGTilling": 0.1254,
+      "_DetialRDepthFade": 6000.0,
+      "_DetialRDepthOffset": -1.71,
+      "_DetialRTilling": 1.35,
+      "_Dgree0": 0.0,
+      "_Dgree1": 0.0,
+      "_Dgree2": 0.0,
+      "_DiffuseBlendIntensity": 1.0,
+      "_DiffuseBlendIntensityThird": 1.0,
+      "_DiffuseBlendMethod": 0.0,
+      "_DiffuseBlendMethodThird": 0.0,
+      "_DiffuseIntensity": 0.1,
+      "_DisableMSAAUVCorrection": 0.0,
+      "_DistortionIntensity": 0.0,
+      "_DstBlend": 0.0,
+      "_DummyMainSettings": 0.0,
+      "_Dx11ShaderPsScore": 853.0,
+      "_Dx11ShaderScore": 946.0,
+      "_Dx11ShaderVsScore": 93.0,
+      "_ElementViewEleID": 0.0,
+      "_EmissionFade_MaxIntensity": -51.2,
+      "_EmissionFade_MinIntensity": 0.3,
+      "_EmissionIntensity": 0.7,
+      "_EmissionRange": 0.1,
+      "_EmissionStrength": 1.03,
+      "_EnableAlphaCameraFade": 0.0,
+      "_EnableAlphaTest": 0.0,
+      "_EnableBaseTex": 1.0,
+      "_EnableCubeMap": 1.0,
+      "_EnableCubeReflection": 1.0,
+      "_EnableCustomConditionEmission": 1.0,
+      "_EnableCustomMainNormal": 0.0,
+      "_EnableCustomParams": 0.0,
+      "_EnableDepthBlend": 0.0,
+      "_EnableDistanceLerp": 0.0,
+      "_EnableEmissionFade": 1.0,
+      "_EnableEnvironment": 1.0,
+      "_EnableFresnel": 1.0,
+      "_EnableGlobalLightGlimmer": 0.0,
+      "_EnableHeightBlend": 0.0,
+      "_EnableHeightErode": 0.0,
+      "_EnableInteriorCommon": 1.0,
+      "_EnableInteriorFallOff": 0.0,
+      "_EnableInteriorFlow": 0.0,
+      "_EnableInteriorNoise": 1.0,
+      "_EnableInteriorRoom": 1.0,
+      "_EnableInteriorSlice": 0.0,
+      "_EnableMatCap": 1.0,
+      "_EnableNoiseTex": 1.0,
+      "_EnablePOM": 0.0,
+      "_EnableParallaxDetail": 1.0,
+      "_EnableParallaxFlowNoise": 1.0,
+      "_EnableRimGlow": 0.0,
+      "_EnableSSS": 0.0,
+      "_EnableSandBlend": 0.0,
+      "_EnableSecondTex": 0.0,
+      "_EnableSeed": 1.0,
+      "_EnableSeedUV2": 0.0,
+      "_EnableShell": 0.0,
+      "_EnableTangentMatrix": 1.0,
+      "_EnableThirdHeightBlend": 0.0,
+      "_EnableThirdTex": 0.0,
+      "_EnableWind": 0.0,
+      "_ErodeMaskTill": 0.1,
+      "_ErodeNoisePow": 0.0,
+      "_ErodeNoiseTill": 0.1,
+      "_ErodeOffset": 0.25,
+      "_ErodeSharpness": 0.5,
+      "_ErodeStoneSeamPow": 0.5,
+      "_ErodeWetFade": 2.0,
+      "_ErodeWetOffset": 1.0,
+      "_ErodeWetSmooth": 0.0,
+      "_ExactSphereMappingToggle": 0.0,
+      "_ExactSphereScale": 1.0,
+      "_FaceToCamToggle": 0.0,
+      "_FillNormalGaps": 0.0,
+      "_FlareType": 0.0,
+      "_FlowSpeed": 20.0,
+      "_FresnelAlpha": 0.0,
+      "_FresnelColorAdditive": 1.0,
+      "_FresnelInvert": 0.0,
+      "_FresnelPower": 14.3,
+      "_FresnelScale": 80.0,
+      "_GlossMapScale": 1.0,
+      "_Glossiness": 0.5,
+      "_GlossyReflections": 1.0,
+      "_HeightContrast": 0.0,
+      "_HeightOffset": 0.0,
+      "_HeightSpread": 1.0,
+      "_InteriorCubeLOD": 0.0,
+      "_InteriorFallOffset": 0.0,
+      "_InteriorFallPow": 1.0,
+      "_InteriorNormalBias": 0.94,
+      "_InteriorRoomColorIntensity": 1.0,
+      "_InteriorSpaceUVSelect": 0.0,
+      "_InteriorSphereTex_SamplerType": 0.0,
+      "_InteriorTex_SamplerType": 0.0,
+      "_InteriorVertxColorMask": 0.0,
+      "_InverseHeight": 0.0,
+      "_InverseThirdHeight": 0.0,
+      "_InvertBlend": 0.0,
+      "_InvertBlendThird": 0.0,
+      "_IsObjSpace": 1.0,
+      "_MHYZBias": 0.0,
+      "_MaskBlendIntensity": 1.0,
+      "_MaskBlendIntensityThird": 1.0,
+      "_MaskBlendMethod": 0.0,
+      "_MaskBlendMethodThird": 0.0,
+      "_MatCapIntensity": 0.3,
+      "_MatCapSize": 1.213,
+      "_MatCap_SamplerType": 0.0,
+      "_MaterialShadowBias": 0.0,
+      "_Metallic": 0.0,
+      "_Mode": 0.0,
+      "_MulAlbedo": 1.0,
+      "_NoiseMaskToggle": 0.0,
+      "_NoiseMask_Brightness": 1.0,
+      "_NoiseMask_Offset": 0.0,
+      "_NoiseRandomNoiseIntensity": 1.0,
+      "_NoiseRandomNoiseSeed": 1024.0,
+      "_NoiseRandomNoiseToggle": 0.0,
+      "_NoiseTexChannelSwitch": 0.0,
+      "_NoiseTexMaskChannelSwitch": 0.0,
+      "_NoiseTexUVRandomToggle": 0.0,
+      "_NoiseTexUVSwitch": 0.0,
+      "_NoiseTex_SamplerType": 0.0,
+      "_NoiseTex_Uspeed": 0.01,
+      "_NoiseTex_Vspeed": 0.01,
+      "_Noise_Brightness": 0.16,
+      "_Noise_Offset": 0.0,
+      "_NormalBlendIntensity": 1.0,
+      "_NormalBlendIntensityThird": 1.0,
+      "_NormalBlendMethod": 0.0,
+      "_NormalBlendMethodThird": 0.0,
+      "_NormalMapIntensity": 0.5,
+      "_NormalScale": 0.8,
+      "_NormalTexToggle": 1.0,
+      "_NormalTexUVRandomToggle": 0.0,
+      "_NormalTexUspeed": 0.0,
+      "_NormalTexVspeed": 0.0,
+      "_OcclusionStrength": 1.0,
+      "_OverrideMobileLODReflectionColor": 0.0,
+      "_POMHeight": 0.0,
+      "_POMLODBias": -2.0,
+      "_POMNormalScale": 1.0,
+      "_POMShadowBias": -0.02,
+      "_POMShadowScale": 1.0,
+      "_POMShadowTransitionRange": 0.1,
+      "_POMUVMinStep": 0.01,
+      "_Parallax": 0.02,
+      "_ParallaxFlowChannel": 2.0,
+      "_ParallaxNoiseMap_SamplerType": 0.0,
+      "_ParallaxUVSet": 0.0,
+      "_PolygonOffsetFactor": 0.0,
+      "_PolygonOffsetUnit": 0.0,
+      "_RGPower": 0.1,
+      "_RGStrength": 1.0,
+      "_RainIntensity": 0.0,
+      "_ReceiveShadow": 0.0,
+      "_ReverseZDir": 0.0,
+      "_Rim_Exp": 23.1,
+      "_Rim_Intensity": 20.6,
+      "_RoomMaxDepth01": 0.5,
+      "_Roughness": 0.196,
+      "_ScaleTilingToggle": 0.0,
+      "_SecAtlasIndex": 1.0,
+      "_SecBillboardDir": 1.0,
+      "_SecColor_SamplerType": 0.0,
+      "_SecInteriorColorIntensity": 1.0,
+      "_SecSolidHeightMap_SamplerType": 0.0,
+      "_SecSolidJitterScale": -0.49,
+      "_SecSolidStep": 61.5,
+      "_SecTexWithSand": 0.0,
+      "_SecUniformDepth": 0.332,
+      "_SecUniformDepth02": 0.5,
+      "_SecondCubeMapBrightness": 1.0,
+      "_SecondCubeMap_SamplerType": 0.0,
+      "_SecondExactSphereScale": 1.0,
+      "_SecondTexToggle": 0.0,
+      "_SeedBaseIntensity": 1.0,
+      "_ShellAO": 0.9,
+      "_ShellBias": 0.0,
+      "_ShellCountScale": 0.0,
+      "_ShellFadeMaxLength": 0.0,
+      "_ShellLODEndDist": 40.0,
+      "_ShellLODStartDist": 10.0,
+      "_ShellMaxLength": 0.0,
+      "_SideBendIntensity": 0.15,
+      "_SideBendIntensityMax": 0.8,
+      "_SideBendSoftness": 0.8,
+      "_SideBendVariance": 0.6,
+      "_SmoothnessTextureChannel": 0.0,
+      "_SpecularHighlights": 1.0,
+      "_SrcBlend": 1.0,
+      "_StarFlowSpeed": 50.0,
+      "_ThirdCubeMapBrightness": 1.0,
+      "_ThirdCubeMap_SamplerType": 0.0,
+      "_ThirdExactSphereScale": 1.0,
+      "_ThirdHeightContrast": 0.0,
+      "_ThirdHeightOffset": 0.0,
+      "_ThirdHeightSpread": 1.0,
+      "_ThirdTexToggle": 0.0,
+      "_TurbulentDistanceScale": 0.0,
+      "_UVSec": 0.0,
+      "_UVSecThird": 0.0,
+      "_UseDetailFlowTex": 1.0,
+      "_UseMainMaskAlphaAsEmission": 1.0,
+      "_UseSecondaryMaskAlphaAsEmission": 1.0,
+      "_UseThirdMaskAlphaAsEmission": 1.0,
+      "_UseWithVertexNormal": 0.0,
+      "_VertexColorAToggle": 0.0,
+      "_VertexColorRGBToggle": 1.0,
+      "_WetErodeNoisePow": 0.0,
+      "_WindIntensityByColorA": 0.089,
+      "_ZWrite": 1.0
+    },
+    "m_Colors": {
+      "_Alpha_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Alpha_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Alpha_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Alpha_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyAlphaCurve_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyAlphaCurve_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyAlphaCurve_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyAlphaCurve_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AtlasIndex": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_BaseColor": {
+        "r": 1.5,
+        "g": 1.5,
+        "b": 1.5,
+        "a": 1.0
+      },
+      "_BaseRandomNoiseUVMask": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_BaseTexRandomST": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_BaseTexST": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_BaseTexTintColor1": {
+        "r": 0.54766804,
+        "g": 0.47794074,
+        "b": 2.5,
+        "a": 1.0
+      },
+      "_BaseTexTintColor2": {
+        "r": 1.8,
+        "g": 0.9310345,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_Color_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Color_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Color_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Color_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_CustomMobileLODReflectionColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_DetailFlowSpeed": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DetailGColor": {
+        "r": 0.2313725,
+        "g": 0.8078431,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_DetailGMinColor": {
+        "r": 0.2313725,
+        "g": 0.8078431,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_DetailRColor": {
+        "r": 10.000001,
+        "g": 6.8397574,
+        "b": 3.970589,
+        "a": 0.0
+      },
+      "_DetailRMinColor": {
+        "r": 1.1068969,
+        "g": 0.0,
+        "b": 1.5,
+        "a": 0.0
+      },
+      "_EmissionColor": {
+        "r": 0.22794116,
+        "g": 0.87221086,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_ErodeGrassTint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_ErodeSandTint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_ErodeWetTint": {
+        "r": 0.75,
+        "g": 0.75,
+        "b": 0.75,
+        "a": 1.0
+      },
+      "_ExactSpherePos": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_FlowColor": {
+        "r": 5.684001,
+        "g": 3.5107064,
+        "b": 3.5107064,
+        "a": 0.0
+      },
+      "_Fresnel": {
+        "r": 0.75,
+        "g": 0.70398074,
+        "b": 0.4466912,
+        "a": 0.0
+      },
+      "_FresnelColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_InteriorFallVector": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_InteriorFlowSpeed": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_InteriorNoiseIntensity": {
+        "r": -0.0845,
+        "g": -0.03,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_InteriorNoiseSpeed": {
+        "r": -0.2,
+        "g": -0.05,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_InteriorOffsetAddend": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_InteriorTilingMultiplier": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.8,
+        "a": 0.0
+      },
+      "_LeafSteamColor": {
+        "r": 0.6964749,
+        "g": 0.8370506,
+        "b": 0.83823526,
+        "a": 0.0
+      },
+      "_MeshParticleColorArray": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_NoiseRandomNoiseUVMask": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NoiseTexMaskST": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NoiseTexST": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NoiseTexUVRandomST": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalScale_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalScale_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalScale_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalScale_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexST": {
+        "r": 0.5,
+        "g": 1.38,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexUspeed_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexUspeed_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexUspeed_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexUspeed_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexVspeed_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexVspeed_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexVspeed_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexVspeed_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ObjOffset": {
+        "r": 0.51,
+        "g": -0.08,
+        "b": -0.4,
+        "a": 0.0
+      },
+      "_ObjTilings": {
+        "r": 2.0,
+        "g": 2.0,
+        "b": 2.857143,
+        "a": 0.0
+      },
+      "_ParallaxFlowSpeedG": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ParallaxFlowSpeedR": {
+        "r": 0.0,
+        "g": -0.25,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ParallaxNoiseMapST": {
+        "r": 7.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_PlaneNormalVecU": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_PlaneNormalVecV": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_RGColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_Roughness_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Roughness_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Roughness_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Roughness_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_SecBillboardPos": {
+        "r": 0.5,
+        "g": 0.47,
+        "b": 0.59,
+        "a": 0.0
+      },
+      "_SecBillboardSize": {
+        "r": 0.3,
+        "g": 0.7,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_SecInteriorGColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_SecInteriorRColor": {
+        "r": 9.000002,
+        "g": 5.219271,
+        "b": 1.786765,
+        "a": 0.0
+      },
+      "_SecSolidRange": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_SecondExactSpherePos": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 0.0
+      },
+      "_SeedEmissionColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_StarTint": {
+        "r": 2.726,
+        "g": 2.726,
+        "b": 2.726,
+        "a": 0.0
+      },
+      "_SteamTint": {
+        "r": 0.16911763,
+        "g": 1.0,
+        "b": 0.89585006,
+        "a": 1.0
+      },
+      "_TangentOffset": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_TangentTilings": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_ThirdExactSpherePos": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 0.0
+      },
+      "_Tint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Property_Ani_Prop_AlchemySimRefine_02",
+  "Name": "Property_Ani_Prop_AlchemySimRefine_02"
+}

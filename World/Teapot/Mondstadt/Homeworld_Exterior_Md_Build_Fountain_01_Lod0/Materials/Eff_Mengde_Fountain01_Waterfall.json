@@ -1,0 +1,231 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 904125149510780386,
+    "Name": "miHoYo/Effects/Waterfall_Multi_Foam",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_BumpMap": {
+        "m_Texture": {
+          "m_FileID": 2,
+          "m_PathID": -2651626842050519991,
+          "Name": "Eff_WaterFall03",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 4.0,
+          "Y": 0.45
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_RefCube": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -8809932764500881771,
+          "Name": "",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "_AlphaBottomOffset": -0.03,
+      "_AlphaBottomRange": 15.0,
+      "_AlphaIntensity": 0.7,
+      "_AlphaOffset": -9.4,
+      "_AlphaRange": 0.29,
+      "_ApplyEnvironmet": 1.0,
+      "_BendFoamClip": 0.409,
+      "_BendFoamOffset": 0.163,
+      "_BendFoamWidth": 0.096,
+      "_BlendOP": 0.0,
+      "_BottomAlphaToggle": 1.0,
+      "_BottomFoamClip": 0.8,
+      "_BottomFoamClip2": 0.5,
+      "_BottomFoamSpeed": 2.0,
+      "_BottomFoamUScale": 1.86,
+      "_BottomFoamVScale": 9.59,
+      "_ColorGradientOffset": -2.27,
+      "_ColorGradientRange": 3.0,
+      "_ColorLerpRangeEnd": 0.449,
+      "_ColorLerpRangeStart": 0.0,
+      "_Cull": 2.0,
+      "_CustomColorGradingAlpha": 1.0,
+      "_DepthFade": 3.0,
+      "_DepthFoamAtten": 4.53,
+      "_DepthFoamClip": 0.384,
+      "_DepthFoamExtent": 0.25,
+      "_DepthThresh": 0.91,
+      "_Detail01_U_Speed": -0.1,
+      "_Detail01_V_Speed": 0.0,
+      "_DetailBrightness": 0.3,
+      "_DetailSpeed": 1.2,
+      "_DstBlendMode": 10.0,
+      "_EnableCloudShadow": 0.0,
+      "_EnableColorGrading": 0.0,
+      "_EnableCustomColorGrading": 0.0,
+      "_EnableFresnel": 0.0,
+      "_EnableLocalLight": 0.0,
+      "_FallFoamClip": 0.066,
+      "_FallsFoamSpeed": 0.18,
+      "_FallsFoamUScale": 1.2,
+      "_FallsFoamVScale": 0.4,
+      "_FoamRoughnes": 0.99,
+      "_FoamSoften": 0.0,
+      "_FresnelPow": 1.0,
+      "_FresnelScale": 1.0,
+      "_MHYZBias": 0.0,
+      "_NoiselDistortionValue": -0.05,
+      "_Normal01_U_Speed": -0.1,
+      "_Normal01_VSpeed": 0.3,
+      "_Normal02_U_Speed": 0.1,
+      "_Normal02_V_Speed": 0.3,
+      "_NormalScale": 0.307,
+      "_Opacity": 0.71,
+      "_PolygonOffsetFactor": 0.0,
+      "_PolygonOffsetUnit": 0.0,
+      "_ReflectionBrightness": 1.46,
+      "_ReflectionIntensity": 0.525,
+      "_SOFTPARTICLES": 0.0,
+      "_ShadowBump": 0.7,
+      "_ShadowIntensity": 0.85,
+      "_ShadowStrength": 1.0,
+      "_Speed": 0.4,
+      "_SplashFoamClip": 0.914,
+      "_SprayOffset": -0.82,
+      "_SprayRange": 1.98,
+      "_SrcBlendMode": 5.0,
+      "_WaterFall01_Speed": 1.2,
+      "_Waterfall01Brightness": 0.6,
+      "_Waterfall02Brightness": 0.4,
+      "_Waterfall02_Speed": 1.0,
+      "_Ztest": 4.0,
+      "_Zwrite": 1.0
+    },
+    "m_Colors": {
+      "_BendFoamColor": {
+        "r": 0.71323526,
+        "g": 0.9426471,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_BottomColor": {
+        "r": 0.83823526,
+        "g": 0.83823526,
+        "b": 0.83823526,
+        "a": 0.0
+      },
+      "_BottomFoamColor": {
+        "r": 0.9558824,
+        "g": 1.0,
+        "b": 0.9963489,
+        "a": 1.0
+      },
+      "_CustomColorGradingColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_DayColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_DepthFoamColor": {
+        "r": 0.8602941,
+        "g": 0.94797164,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_DistortionIntensity": {
+        "r": 0.766,
+        "g": 0.766,
+        "b": 0.659,
+        "a": 0.0
+      },
+      "_FallFoamColor": {
+        "r": 0.7520545,
+        "g": 0.8799741,
+        "b": 0.9558824,
+        "a": 1.0
+      },
+      "_GradualColor": {
+        "r": 0.40289792,
+        "g": 0.5998569,
+        "b": 0.7941176,
+        "a": 1.0
+      },
+      "_MainColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_RefBackgroundColor": {
+        "r": 0.25490198,
+        "g": 0.3137255,
+        "b": 0.39607847,
+        "a": 1.0
+      },
+      "_RefForegroundColor": {
+        "r": 0.3321799,
+        "g": 0.8135773,
+        "b": 0.9411765,
+        "a": 1.0
+      },
+      "_ReflectionColor_Dark": {
+        "r": 0.21085641,
+        "g": 0.33520758,
+        "b": 0.36764705,
+        "a": 0.0
+      },
+      "_ReflectionColor_Light": {
+        "r": 0.9852941,
+        "g": 0.9852941,
+        "b": 0.9852941,
+        "a": 0.0
+      },
+      "_SplashFoamColor": {
+        "r": 0.6583585,
+        "g": 0.72794116,
+        "b": 0.72218263,
+        "a": 1.0
+      },
+      "_TopColor": {
+        "r": 0.62467563,
+        "g": 0.7794118,
+        "b": 0.7730089,
+        "a": 0.0
+      },
+      "_WaterfallPatternColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_WaterfallSpecColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Eff_Mengde_Fountain01_Waterfall",
+  "Name": "Eff_Mengde_Fountain01_Waterfall"
+}
