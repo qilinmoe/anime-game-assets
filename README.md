@@ -11,11 +11,11 @@
 ###
 
 <div align="center">
-  <img height="300" src="https://media.discordapp.net/attachments/1130533452991713320/1187228128192495637/08b2f960-f6bf-4ce5-ba93-2087ed5fc6d9.png"/>
+  <img height="300" src="https://upload-os-bbs.hoyolab.com/upload/2024/01/11/23066526/81ddad50dc92266a7fe8fc10a18ca2e8_4379568971140393914.jpg"/>
 </div>
 
 ###
-<p align="center"><b>Current Version: 4.4</b></p>
+<p align="center"><b>Current Version: 4.5</b></p>
 <div align="center">
     <table align="center">
         <tr>
@@ -31,7 +31,7 @@
             <td align="center"> <a href="">Monsters</a></br>(soon™) </td>
         </tr>
         <tr>
-            <td align="center"> <a href="">Furniture</a></br>(soon™) </td>
+            <td align="center"> <a href="https://github.com/ladyfoxpoint/anime-game-assets/tree/main/World">World</a></br>(Furniture/Landscape)</br>(Not organized yet) </td>
         </tr>
     </table>
 </div>
