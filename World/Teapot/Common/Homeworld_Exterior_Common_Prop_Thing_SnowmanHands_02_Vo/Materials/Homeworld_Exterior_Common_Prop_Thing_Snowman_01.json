@@ -1,0 +1,375 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": -1771662156127634641,
+    "Name": "miHoYo/Scene/Snow",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_BumpMap": {
+        "m_Texture": {
+          "m_FileID": 2,
+          "m_PathID": 3972695471652330796,
+          "Name": "Homeworld_Exterior_Common_Prop_Thing_Snowman_01_Normal",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DetailMask": {
+        "m_Texture": {
+          "m_FileID": 4,
+          "m_PathID": 3087730720890998412,
+          "Name": "Homeworld_Exterior_Common_Prop_Thing_Snowman_01_SMBE",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MainTex": {
+        "m_Texture": {
+          "m_FileID": 5,
+          "m_PathID": -5368636409469855803,
+          "Name": "Homeworld_Exterior_Common_Prop_Thing_Snowman_01_Diffuse",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_POMHeightMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ReflectionCube": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecondaryBumpMap": {
+        "m_Texture": {
+          "m_FileID": 2,
+          "m_PathID": 3972695471652330796,
+          "Name": "Homeworld_Exterior_Common_Prop_Thing_Snowman_01_Normal",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecondaryDetailMask": {
+        "m_Texture": {
+          "m_FileID": 4,
+          "m_PathID": 3087730720890998412,
+          "Name": "Homeworld_Exterior_Common_Prop_Thing_Snowman_01_SMBE",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecondaryTex": {
+        "m_Texture": {
+          "m_FileID": 5,
+          "m_PathID": -5368636409469855803,
+          "Name": "Homeworld_Exterior_Common_Prop_Thing_Snowman_01_Diffuse",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SnowDetail": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -6716505276217528276,
+          "Name": "Stages_Snow_01_T4_HNG",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "Blend_Type": 2.0,
+      "Emission_Type": 1.0,
+      "_AdditiveEmission": 0.0,
+      "_BlendValueFrom": 1.0,
+      "_BottomDepth": 0.11,
+      "_BrickBlend": 0.0,
+      "_BrickRandomClip": 0.0,
+      "_BrickSmoothStepEnd": 0.0,
+      "_BrickSmoothStepStart": 0.0,
+      "_BumpScale": 1.0,
+      "_CullMode": 2.0,
+      "_CutOff": 0.5,
+      "_Cutoff": 0.5,
+      "_DeformationFakeAO": 0.556,
+      "_DepthBiasScaled": 2.0,
+      "_DetailBumpMapIntensity": 2.0,
+      "_DetailHeightTill": 1.0,
+      "_DetailNormalMapScale": 1.0,
+      "_DiffuseBlendIntensity": 1.0,
+      "_DiffuseBlendMethod": 0.0,
+      "_DisableAltitude": 0.0,
+      "_DisableMSAAUVCorrection": 0.0,
+      "_DitherAlpha": 1.0,
+      "_DstBlend": 0.0,
+      "_ElementViewEleID": 0.0,
+      "_EmissionRange": 0.1,
+      "_EmissionStrength": 0.0,
+      "_EnableAlphaTest": 0.0,
+      "_EnableCubeReflection": 1.0,
+      "_EnableCustomConditionEmission": 0.0,
+      "_EnableDepthBlend": 0.0,
+      "_EnableFixedTiling": 0.0,
+      "_EnableHeightBlend": 0.0,
+      "_EnablePOM": 0.0,
+      "_EnableRimGlow": 1.0,
+      "_EnableSSS": 1.0,
+      "_EnableSecondTex": 1.0,
+      "_EnableShell": 0.0,
+      "_EnableSnowBlend": 1.0,
+      "_EnableTerrainTint": 0.0,
+      "_EnableWet": 0.0,
+      "_Enable_Snow_Lighting": 1.0,
+      "_ExcludeWetTint": 0.0,
+      "_FillNormalGaps": 0.0,
+      "_GlitterIntense": 0.5,
+      "_GlitterMaskTill": 5.0,
+      "_GlitterTill": 5.0,
+      "_GlossMapScale": 1.0,
+      "_Glossiness": 0.5,
+      "_GlossyReflections": 1.0,
+      "_GrassNormalMix": -0.5,
+      "_HeightContrast": 0.0,
+      "_HeightOffset": 0.0,
+      "_HeightSpread": 1.0,
+      "_HeightTill": 1.0,
+      "_InverseHeight": 0.0,
+      "_InvertBlend": 0.0,
+      "_MaskBlendIntensity": 0.5,
+      "_MaskBlendMethod": 0.0,
+      "_MaterialShadowBias": 0.0023,
+      "_MediumDarkenIntensity": 1.0,
+      "_MediumDetailDiffuseDistanceInverse": 80.0,
+      "_MediumDetailDiffuseFade": 3.0,
+      "_MediumDetailNormalScale": 1.0,
+      "_MeshPomHeight": 0.0,
+      "_Metallic": 0.0,
+      "_MiddleDepth": 0.05,
+      "_Mode": 0.0,
+      "_MulAlbedo": 0.0,
+      "_NearDarkenIntensity": 0.0,
+      "_NearDetailDiffuseDistanceInverse": 30.0,
+      "_NearDetailDiffuseFade": 2.0,
+      "_NearDetailNormalScale": 1.0,
+      "_NormalBlendIntensity": 0.0,
+      "_NormalBlendMethod": 1.0,
+      "_NormalPow": 1.0,
+      "_NotSnowMatID": 0.0,
+      "_OcclusionStrength": 1.0,
+      "_POMHeight": 0.0,
+      "_POMLODBias": -2.0,
+      "_POMNormalScale": 1.0,
+      "_POMShadowBias": -0.02,
+      "_POMShadowScale": 1.0,
+      "_POMShadowTransitionRange": 0.1,
+      "_POMUVMinStep": 0.01,
+      "_Parallax": 0.02,
+      "_ParallaxFadeEnd": 80.0,
+      "_ParallaxFadeStart": 50.0,
+      "_PolygonOffsetFactor": 0.0,
+      "_PolygonOffsetUnit": 0.0,
+      "_RGPower": 3.0,
+      "_RGStrength": 0.3,
+      "_RainIntensity": 0.2,
+      "_ReceiveShadow": 0.0,
+      "_ShellAO": 0.9,
+      "_ShellCountScale": 0.0,
+      "_ShellFadeMaxLength": 0.0,
+      "_ShellLODEndDist": 40.0,
+      "_ShellLODStartDist": 10.0,
+      "_ShellMaxLength": 0.0,
+      "_Smoothness": 0.9,
+      "_SmoothnessTextureChannel": 0.0,
+      "_SnowIntensity": 1.0,
+      "_SnowNormalMix": 0.44,
+      "_SnowOffset": 1.41,
+      "_SnowRimPow": 1.36,
+      "_SnowSmoothness": 0.444,
+      "_SnowSoft": 0.4,
+      "_SpecularHighlights": 1.0,
+      "_SrcBlend": 1.0,
+      "_StoneNormalScale": 1.0,
+      "_UVSec": 0.0,
+      "_UseMainMaskAlphaAsEmission": 1.0,
+      "_UseMediumDetail": 1.0,
+      "_UseMediumDetailSecondaryUV": 0.0,
+      "_UseNearDetailDiffuse": 0.0,
+      "_UseNearDetailSecondaryUV": 0.0,
+      "_UseSecondaryMaskAlphaAsEmission": 1.0,
+      "_WetEndHeight": 0.0,
+      "_WetSmoothnessOffset": 0.0,
+      "_WetStartHeight": 0.0,
+      "_ZWrite": 1.0
+    },
+    "m_Colors": {
+      "_BottomBaseColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_BottomRampColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_BottomST": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ButtonSnowCol": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_EmissionColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MainColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MiddleBaseColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MiddleRampColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MiddleST": {
+        "r": 4.0,
+        "g": 4.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_RGColor": {
+        "r": 0.0,
+        "g": 0.79215693,
+        "b": 0.9058824,
+        "a": 1.0
+      },
+      "_SnowDir": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_TintExtents": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_TopSnowCol": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_WetColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Homeworld_Exterior_Common_Prop_Thing_Snowman_01",
+  "Name": "Homeworld_Exterior_Common_Prop_Thing_Snowman_01"
+}

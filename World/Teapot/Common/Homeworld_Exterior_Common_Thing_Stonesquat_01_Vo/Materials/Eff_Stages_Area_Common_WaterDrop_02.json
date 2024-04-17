@@ -1,0 +1,464 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 2403807416301465391,
+    "Name": "miHoYo/FakeGpuParticle/Particle",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_FlashCurve": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MainTex": {
+        "m_Texture": {
+          "m_FileID": 2,
+          "m_PathID": 189643674493851368,
+          "Name": "Eff_Stages_Area_Common_WaterDrop_01_Mask",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MotionTex": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -4476374970920577530,
+          "Name": "Stages_Vegetation_T4_Noise_NoStream",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_NoiseForceTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_NoiseTex": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -4476374970920577530,
+          "Name": "Stages_Vegetation_T4_Noise_NoStream",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_OverDayTimeTexPack": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_OverLifeTimeTexPack": {
+        "m_Texture": {
+          "m_FileID": 4,
+          "m_PathID": -7043284916086630156,
+          "Name": "Eff_Stages_Area_Common_Ripple_01_Ramp",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecondTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_StartRandCurve": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "Emitter_Type": 0.0,
+      "_AlphaRandom": 1.0,
+      "_AlphaScale": 3.0,
+      "_AlphaSettings": 0.0,
+      "_ApplyFog": 1.0,
+      "_ApplyLighting": 1.0,
+      "_BaseTexAlphaChannelSwitch": 1.0,
+      "_Billboard": 0.0,
+      "_BillboardClampY": 0.0,
+      "_BlendMode": 0.0,
+      "_BlendOP": 0.0,
+      "_BumpScale": 1.0,
+      "_CircleForce": 0.0,
+      "_ColorChannelSwitch": 0.0,
+      "_ColorLerpChannel": 0.0,
+      "_ColorRandLerp": 0.0,
+      "_ColorSettings": 0.0,
+      "_ConeAngleRadius": 0.8,
+      "_ConeHeight": 1.0,
+      "_ConeThickness": 1.0,
+      "_ConeTopRadius": 1.0,
+      "_ConeUseConeDir": 0.0,
+      "_Cull": 1.0,
+      "_CutOff": 0.5,
+      "_Cutoff": 0.5,
+      "_DetailNormalMapScale": 1.0,
+      "_DiffuseWrapIntensity": 0.5,
+      "_DissolveVal": 0.108,
+      "_DistanceFadeMode": 0.0,
+      "_DistanceFadeMode_ParticleCommon": 0.0,
+      "_DistanceFadeOffset": 0.0,
+      "_DistanceFadeOffsetTwoway_ParticleCommon": 0.0,
+      "_DistanceFadeOffset_ParticleCommon": 0.0,
+      "_DistanceFadeScale": 0.05,
+      "_DistanceFadeScaleTwoway_ParticleCommon": 1.0,
+      "_DistanceFadeScale_ParticleCommon": 1.0,
+      "_DistanceFade_ParticleCommon": 0.0,
+      "_DstBlend": 0.0,
+      "_DstBlendMode": 10.0,
+      "_EdgeFade": 55.6,
+      "_EnableAlphaTest": 1.0,
+      "_EnableColorOverLife": 1.0,
+      "_EnableLocalLight": 0.0,
+      "_EnableSecondTex": 0.0,
+      "_EnableSpeedOverLife": 0.0,
+      "_FP1Range": 1.0,
+      "_FP2Range": 1.0,
+      "_FP3Range": 1.0,
+      "_FPLightNum": 0.0,
+      "_FadeInFadeOutScale": 0.1,
+      "_Flash": 0.0,
+      "_FlashRand": 1.0,
+      "_FlashSpeed": 1.0,
+      "_Force": 0.0,
+      "_GlossMapScale": 1.0,
+      "_Glossiness": 0.5,
+      "_GlossyReflections": 1.0,
+      "_InvSoftDistance": 5.0,
+      "_LifeTime": 3.5,
+      "_LifeTimeMax": 3.5,
+      "_LifeTimeRange": 0.923,
+      "_MainUSpeed": 0.0,
+      "_MainUVRand": 0.0,
+      "_MainVSpeed": 0.0,
+      "_ManualLifeTime": 0.0,
+      "_Metallic": 0.0,
+      "_Mode": 0.0,
+      "_MotionNoMove": 0.0,
+      "_NoiseForce": 0.0,
+      "_NoiseForceSpeed": 1.0,
+      "_NoiseScale": 0.06,
+      "_NoiseScaleSec": 0.0,
+      "_NoiseTexChannelSwitch": 0.0,
+      "_NoiseTexChannelSwitchSec": 0.0,
+      "_NoiseUSpeed": 0.0,
+      "_NoiseUSpeedSec": 0.0,
+      "_NoiseVSpeed": 0.0,
+      "_NoiseVSpeedSec": 0.0,
+      "_OcclusionStrength": 1.0,
+      "_OverLifeTimeGroup": 0.0,
+      "_Parallax": 0.02,
+      "_ParticleApplyLighting": 0.0,
+      "_ParticleDeath": 256.0,
+      "_ParticleDeathByLife": 2.0,
+      "_ParticleExtraSettings": 0.0,
+      "_ParticleFPLight": 0.0,
+      "_ParticleMaxNum": 256.0,
+      "_ParticleNum": 4.0,
+      "_ParticleNumMobile": 1.0,
+      "_ParticleSettings": 0.0,
+      "_ParticleSize": 0.0,
+      "_ParticleSpawn": 1.0,
+      "_ParticleSpawnMode": 0.0,
+      "_ParticleSpeed": 0.0,
+      "_ParticleType": 0.0,
+      "_PointForce": 0.0,
+      "_PositionOverLifeTime": 0.0,
+      "_PropConditionsObjPath": 0.0,
+      "_Renderer": 0.0,
+      "_RotOverLife": 0.0,
+      "_Rotation": 1.0,
+      "_Roughness": 0.99,
+      "_RowNum": 2.0,
+      "_SecTexAlphaChannelSwitch": 0.0,
+      "_SecondBlend": 0.0,
+      "_SecondBlendScale": 1.0,
+      "_SecondUSpeed": 0.0,
+      "_SecondUVRand": 0.0,
+      "_SecondVSpeed": 0.0,
+      "_ShadowIntensity": 1.0,
+      "_Shape": 0.0,
+      "_SizeCameraFade": 0.0,
+      "_SizeCameraFadeOffset": 0.0,
+      "_SizeCameraFadeScale": 0.01,
+      "_SizeCameraFadeWithScale": 0.0,
+      "_SizeOverLife": 1.0,
+      "_SizeOverLifeMax": 0.3,
+      "_SizeOverLifeMin": 0.0,
+      "_SizeOverLifeScale": 1.0,
+      "_SizeRandMax": 1.0,
+      "_SizeRandMin": 0.666,
+      "_SkipTaa": 1.0,
+      "_SmoothnessTextureChannel": 0.0,
+      "_SpecularHighlights": 1.0,
+      "_SpeedNoise": 0.0,
+      "_SpeedNoiseScale": 0.0,
+      "_SpeedOverLife": 0.0,
+      "_SpeedOverLifeMax": 1.0,
+      "_SpeedOverLifeMin": 0.0,
+      "_SpeedOverLifeScale": 1.0,
+      "_SpeedScale": 0.1,
+      "_SrcBlend": 1.0,
+      "_SrcBlendMode": 5.0,
+      "_StartRotRand": 100.0,
+      "_StartTexScale": 0.0,
+      "_StartTexSpeed": 0.0,
+      "_TextureAnimSwitch": 0.0,
+      "_TextureSheet": 0.0,
+      "_TextureSheetAnimeSpeed": 1.0,
+      "_TextureSheetBlendSwitch": 0.0,
+      "_TextureSheetSwitch": 0.0,
+      "_TravellerInvert": 0.0,
+      "_TravellerOffset": 0.0,
+      "_TravellerRadius": 1.0,
+      "_TravellerRange": 1.0,
+      "_TravellerSpeed": 1.0,
+      "_UVSec": 0.0,
+      "_UseArray": 0.0,
+      "_UseColorOverDayTime": 0.0,
+      "_UseColorRand": 0.0,
+      "_UseColorRandStep": 0.0,
+      "_UseDissolve": 1.0,
+      "_UseManual": 0.0,
+      "_UseOriPos": 0.0,
+      "_UseTraveller": 0.0,
+      "_UseWholeTex": 0.0,
+      "_ZWrite": 1.0
+    },
+    "m_Colors": {
+      "_AtlasTiless": {
+        "r": 4.0,
+        "g": 4.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_ConeButtomOffset": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_FP1Color": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FP1Position": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FP2Color": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FP2Position": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FP3Color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_FP3Position": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_MainColor": {
+        "r": 0.89705884,
+        "g": 0.9531441,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MainDarkColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_NoiseForceScale": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_PointForcePos": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_RotationAxis": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_SecColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_SecDarkColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_SpeedNoiseStrength": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_SpeedRand": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_StartRand": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_StartSize": {
+        "r": 25.0,
+        "g": 25.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_StartSpeed": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_StartTexStrength": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_TextureSheetNum": {
+        "r": 2.0,
+        "g": 2.0,
+        "b": 0.0,
+        "a": 0.0
+      }
+    }
+  },
+  "m_Name": "Eff_Stages_Area_Common_WaterDrop_02",
+  "Name": "Eff_Stages_Area_Common_WaterDrop_02"
+}

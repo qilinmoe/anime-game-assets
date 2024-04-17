@@ -1,0 +1,186 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 6065908777003287000,
+    "Name": "",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_DepthFoamMask": {
+        "m_Texture": {
+          "m_FileID": 2,
+          "m_PathID": -2846951801954545040,
+          "Name": "",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 0.2,
+          "Y": 0.15
+        },
+        "m_Offset": {
+          "X": 0.01,
+          "Y": 0.01
+        }
+      },
+      "_Normal01": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -7523626545133928002,
+          "Name": "",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 3.0,
+          "Y": 3.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_Normal02": {
+        "m_Texture": {
+          "m_FileID": 4,
+          "m_PathID": -4810656984115840205,
+          "Name": "",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 30.0,
+          "Y": 30.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "_BlendOP": 0.0,
+      "_CausticChromaticAberration": 0.015,
+      "_CausticDepth": 5.0,
+      "_CausticDistance": 0.01,
+      "_CausticDistortionSpeed": 0.206,
+      "_CausticDistortionTiling": 0.246,
+      "_CausticDistortionValue": 0.13,
+      "_CausticFade": 0.1,
+      "_CausticFadeExponent": 0.68,
+      "_CausticFadePower": 3.0,
+      "_CausticIntensity": 0.5,
+      "_CausticOffset": 10.0,
+      "_CausticSpeed": 0.18,
+      "_CausticTiling": 0.25,
+      "_CausticUVScale": 0.47,
+      "_Cull": 2.0,
+      "_DeepColorDepth": 0.1,
+      "_DeepColorFade": 1.62,
+      "_DepthFoamCloseFadeDistance": 181.0,
+      "_DepthFoamCloseFadeOffset": 10.0,
+      "_DepthFoamDistance": 60.0,
+      "_DepthFoamExtent": 0.3,
+      "_DepthFoamPhaseScale": 0.0,
+      "_DepthFoamSpeed": -1.28,
+      "_DepthFoamSubdivision": 19.0,
+      "_DepthFoamWidth": 0.3,
+      "_DisableCubeMap": 0.0,
+      "_DstBlendMode": 10.0,
+      "_EnableCausticTex": 0.0,
+      "_FoamFade": 0.5,
+      "_FoamFadeDistance": 15.0,
+      "_FoamFadeOffset": 10.0,
+      "_FoamIntensity": 0.6,
+      "_FoamSpeed": 0.2,
+      "_FoamWidth": 0.57,
+      "_FresnelPower": 4.0,
+      "_Gloss": 575.0,
+      "_MHYZBias": 0.0,
+      "_Normal01_U_Speed": 0.03,
+      "_Normal01_VSpeed": -0.02,
+      "_Normal02_U_Speed": 0.02,
+      "_Normal02_V_Speed": -0.15,
+      "_NormalMapBias": -1.0,
+      "_NormalMapScale": 2.5,
+      "_OpacityByDepth": 20.0,
+      "_PolygonOffsetFactor": 0.0,
+      "_PolygonOffsetUnit": 0.0,
+      "_ProjectUVScale": 0.321,
+      "_ReflectionIntensity": 0.425,
+      "_RefractionCharacterOffset": 0.0,
+      "_RefractionIntensity": 0.1,
+      "_Ripple02Rotate": 3.57,
+      "_RippleTillingScale": 0.76,
+      "_SSRDistortion": 1.5,
+      "_SSRDistortion_Shore": 100.0,
+      "_SSRIntensity": 1.0,
+      "_SSRToggle": 1.0,
+      "_ShoreFade": 0.55,
+      "_ShoreReflectionFade": 0.1,
+      "_ShoreTransparency": 3.0,
+      "_SpecularIntensity": 4.0,
+      "_SpecularPower": 6.0,
+      "_SrcBlendMode": 5.0,
+      "_Ztest": 4.0,
+      "_Zwrite": 0.0
+    },
+    "m_Colors": {
+      "_CausticColor": {
+        "r": 0.93086743,
+        "g": 0.9411765,
+        "b": 0.7543253,
+        "a": 1.0
+      },
+      "_DeepColor": {
+        "r": 0.5788819,
+        "g": 0.9179379,
+        "b": 0.9485294,
+        "a": 0.0
+      },
+      "_DepthFoamColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_DistortionIntensity": {
+        "r": 0.1120242,
+        "g": 0.2050673,
+        "b": 0.4117647,
+        "a": 0.0
+      },
+      "_FoamColor": {
+        "r": 1.1806489,
+        "g": 1.0938364,
+        "b": 1.0938364,
+        "a": 1.0
+      },
+      "_FoamSpeed": {
+        "r": 5.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_RippleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_ShallowColor": {
+        "r": 0.66176474,
+        "g": 1.0663692,
+        "b": 1.2,
+        "a": 0.0
+      },
+      "_WaterMeshScale": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      }
+    }
+  },
+  "m_Name": "Stages_Water_Ly_Sl03_Vo",
+  "Name": "Stages_Water_Ly_Sl03_Vo"
+}

@@ -1,0 +1,304 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 6102030309617404241,
+    "Name": "miHoYo/Decal/Deferred Decal",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_DissolveNoise": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MainTex": {
+        "m_Texture": {
+          "m_FileID": 4,
+          "m_PathID": 6706269734507640066,
+          "Name": "Homeworld_General_Common_Thing_Field_03_Diffuse",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_Mask": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -5088403792437599426,
+          "Name": "Homeworld_General_Common_Thing_Field_03_SMBE",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_Normal01": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_Normal02": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_NormalTex": {
+        "m_Texture": {
+          "m_FileID": 2,
+          "m_PathID": -7557739847750343141,
+          "Name": "Homeworld_General_Common_Thing_Field_03_Normal",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_POMHeightMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_PuddleMask": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "Blend_Type": 0.0,
+      "Decal_Normal_Type": 0.0,
+      "Emission_Type": 0.0,
+      "_AdditiveEmission": 0.0,
+      "_AlphaMultiplySnowExtent": 0.0,
+      "_AngleLimit": 0.5,
+      "_BlendOffset": 0.0,
+      "_BlendSoft": 1.0,
+      "_BlendValueFrom": 1.0,
+      "_BrickBlend": 0.0,
+      "_BrickRandomClip": 0.0,
+      "_BrickSmoothStepEnd": 0.0,
+      "_BrickSmoothStepStart": 0.0,
+      "_BumpScale": 1.0,
+      "_CullMode": 2.0,
+      "_CustomChannelDstBlend": 1.0,
+      "_CustomChannelSrcBlend": 0.0,
+      "_CutOff": 0.903,
+      "_Cutoff": 0.5,
+      "_DecalAlbedoSrcBlend": 1.0,
+      "_DecalBlendMode": 0.0,
+      "_DecalDstBlend": 10.0,
+      "_DecalSrcBlend": 1.0,
+      "_DepthBiasScaled": 4.0,
+      "_DetailNormalMapScale": 1.0,
+      "_DiffuseBlendIntensity": 1.0,
+      "_DiffuseBlendMethod": 0.0,
+      "_DisableMSAAUVCorrection": 0.0,
+      "_DissolveEdgeWidth": 1.5,
+      "_DissolveValue": 0.0,
+      "_DstBlend": 0.0,
+      "_ElementViewEleID": 0.0,
+      "_EmissionIntensity": 10.0,
+      "_EmissionRange": 0.1,
+      "_EmissionStrength": 1.0,
+      "_EnableAlphaTest": 1.0,
+      "_EnableBlendAdjust": 0.0,
+      "_EnableCubeReflection": 0.0,
+      "_EnableDepthBlend": 1.0,
+      "_EnableDissolve": 0.0,
+      "_EnableHeightBlend": 1.0,
+      "_EnablePOM": 0.0,
+      "_EnableReadMatID": 0.0,
+      "_EnableRimGlow": 0.0,
+      "_EnableSandCover": 0.0,
+      "_EnableSecondTex": 0.0,
+      "_EnableShell": 0.0,
+      "_FillNormalGaps": 0.0,
+      "_GlossMapScale": 1.0,
+      "_Glossiness": 0.5,
+      "_GlossyReflections": 1.0,
+      "_HeightContrast": 0.285,
+      "_HeightOffset": 0.868,
+      "_HeightSpread": 7.41,
+      "_InverseHeight": 0.0,
+      "_InvertBlend": 0.0,
+      "_MaskBlendIntensity": 0.589,
+      "_MaskBlendMethod": 0.0,
+      "_MaterialShadowBias": 0.0,
+      "_Metallic": 0.0,
+      "_Mode": 0.0,
+      "_MulAlbedo": 0.0,
+      "_MultiplyAlbedo": 0.0,
+      "_Normal01_U_Speed": 0.0,
+      "_Normal01_VSpeed": 0.0,
+      "_Normal02_U_Speed": 0.0,
+      "_Normal02_V_Speed": 0.0,
+      "_NormalBlendIntensity": 1.0,
+      "_NormalBlendMethod": 1.0,
+      "_NormalMapScale": 0.0,
+      "_NormalMultiplier": 1.0,
+      "_OcclusionStrength": 1.0,
+      "_Opacity": 1.0,
+      "_POMHeight": 0.0,
+      "_POMLODBias": -2.0,
+      "_POMNormalScale": 1.0,
+      "_POMShadowBias": 0.0,
+      "_POMShadowScale": 0.0,
+      "_POMShadowTransitionRange": 0.0,
+      "_POMUVMinStep": 0.0,
+      "_Parallax": 0.02,
+      "_PassthroughShininess": 0.0,
+      "_PolygonOffsetFactor": 0.0,
+      "_PolygonOffsetUnit": 0.0,
+      "_PuddleWaveScaled": 0.0,
+      "_RGPower": 0.1,
+      "_RGStrength": 1.0,
+      "_RainIntensity": 0.0,
+      "_ReceiveShadow": 0.0,
+      "_RippleTillingScale": 0.0,
+      "_ShellAO": 0.9,
+      "_ShellMaxLength": 0.0,
+      "_SmoothnessTextureChannel": 0.0,
+      "_SpecularHighlights": 1.0,
+      "_SrcBlend": 1.0,
+      "_UVAutoTilingScale": 0.0,
+      "_UVSec": 0.0,
+      "_UseCustomColorGrading": 1.0,
+      "_UseCustomTilling": 0.0,
+      "_UseMainMaskAlphaAsEmission": 1.0,
+      "_UsePomEffect": 0.0,
+      "_UsePuddle": 0.0,
+      "_UseReflection": 0.0,
+      "_UseSandDitherFade": 0.0,
+      "_UseSecondaryMaskAlphaAsEmission": 1.0,
+      "_UseTerrainDepthBlend": 1.0,
+      "_UseUVAutoTiling": 0.0,
+      "_WirteNormalOnly": 0.0,
+      "_ZWrite": 1.0
+    },
+    "m_Colors": {
+      "_Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_CustomTill": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DissolveColor": {
+        "r": 0.20588237,
+        "g": 0.8685598,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_EmissionColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_PuddleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_RGColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_RippleColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_SpecColor": {
+        "r": 0.2352941,
+        "g": 0.2352941,
+        "b": 0.2352941,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Homeworld_Exterior_Common_Thing_Field_03",
+  "Name": "Homeworld_Exterior_Common_Thing_Field_03"
+}

@@ -1,0 +1,163 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 160704622117207590,
+    "Name": "",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_BumpMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ColorSetLUT": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DiffuseTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MainTex": {
+        "m_Texture": {
+          "m_FileID": 2,
+          "m_PathID": -3759028575453534474,
+          "Name": "Stages_CyTree02_Leaf01_LSAB",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "Wind": 1.0,
+      "_BendSpeed": 0.12,
+      "_BendSpeedMax": 0.32,
+      "_ClipEnhance": 0.15,
+      "_ClipEnhanceDistance": 235.0,
+      "_CollisionOn": 0.0,
+      "_ColorLut": 0.0,
+      "_CutOff": 0.3,
+      "_CutOffset": 2.32,
+      "_DiffuseTex": 0.0,
+      "_DitherAlpha": 1.0,
+      "_DownBendIntensity": 0.0079,
+      "_DownBendIntensityMax": 0.1,
+      "_DownBendVariance": 0.128,
+      "_FaceGeoRangeXZ": 10.0,
+      "_FaceGeoRangeY": 20.0,
+      "_FaceGeometry": 0.0,
+      "_FlowerHeight": 1.0,
+      "_FlowerMaxOffset": 1.0,
+      "_Gust": 0.12,
+      "_IsNonDirectionalCollision": 0.0,
+      "_LTDistortion": 0.23,
+      "_LTPower": 6.0,
+      "_LTScale": 0.2,
+      "_LUTIndex": 1.0,
+      "_MaterialShadowBias": 0.0,
+      "_PushStrength": 0.1,
+      "_ShadowHardness": -0.1,
+      "_SideBendIntensity": 0.0085,
+      "_SideBendIntensityMax": 0.8,
+      "_SideBendSoftness": 0.44,
+      "_SideBendVariance": 0.066,
+      "_SpecularPower": 1.0,
+      "_SpecularScale": 1.5,
+      "_TopColorOffset": -0.3,
+      "_TopColorScale": 0.6,
+      "_UseDiffuseTex": 0.0,
+      "_UseFlowerOffset": 0.0
+    },
+    "m_Colors": {
+      "_AOColor": {
+        "r": 0.052595124,
+        "g": 0.14015605,
+        "b": 0.1490196,
+        "a": 1.0
+      },
+      "_BranchColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_DarkColor": {
+        "r": 0.04035293,
+        "g": 0.27450982,
+        "b": 0.24544208,
+        "a": 1.0
+      },
+      "_LeafColor": {
+        "r": 0.08073812,
+        "g": 0.19607842,
+        "b": 0.16812687,
+        "a": 1.0
+      },
+      "_LeafColor2": {
+        "r": 0.27558032,
+        "g": 0.41568625,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_TopColor": {
+        "r": 0.18760784,
+        "g": 0.416,
+        "b": 0.20796594,
+        "a": 1.0
+      },
+      "_TopColorVector": {
+        "r": 1.0,
+        "g": 5.0,
+        "b": 0.0,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Stages_CyTree02_Leaf01_Lod0",
+  "Name": "Stages_CyTree02_Leaf01_Lod0"
+}
