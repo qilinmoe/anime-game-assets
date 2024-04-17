@@ -1,0 +1,332 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 4536615314418779181,
+    "Name": "miHoYo/Scene/Wind",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_BumpMap": {
+        "m_Texture": {
+          "m_FileID": 2,
+          "m_PathID": 3520661491615504986,
+          "Name": "Area_Dq_Ecloth_MS_Irodori_Flag_01_Normal",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DetailMask": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -7049786988719952850,
+          "Name": "Area_Dq_Ecloth_MS_Irodori_Flag_01_SMBE",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_EmissionCurve": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MainTex": {
+        "m_Texture": {
+          "m_FileID": 4,
+          "m_PathID": -1062213994173669045,
+          "Name": "Area_Dq_Ecloth_MS_Irodori_Flag_01_Diffuse",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_Noisemap": {
+        "m_Texture": {
+          "m_FileID": 5,
+          "m_PathID": -4476374970920577530,
+          "Name": "Stages_Vegetation_T4_Noise_NoStream",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 5.0,
+          "Y": 5.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_Normal02": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ReflectionCube": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SSSTranslucencyMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecondaryBumpMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecondaryDetailMask": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecondaryTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "Emission_Type": 0.0,
+      "_AdditiveEmission": 0.0,
+      "_AmplitudeStrength": 0.0,
+      "_BlackenAlbedo": 0.0,
+      "_BlendValueFrom": 0.0,
+      "_BumpScale": 1.0,
+      "_CullMode": 2.0,
+      "_CustomSSSProfile": 4.0,
+      "_CutOff": 0.5,
+      "_Cutoff": 0.5,
+      "_DetailNormalMapScale": 1.0,
+      "_DiffuseBlendIntensity": 1.0,
+      "_DiffuseBlendMethod": 0.0,
+      "_DisableMSAAUVCorrection": 0.0,
+      "_DstBlend": 0.0,
+      "_ElementViewEleID": 0.0,
+      "_EmissionRange": 0.1,
+      "_EmissionStrength": 1.0,
+      "_EnableAlphaTest": 0.0,
+      "_EnableCubeReflection": 1.0,
+      "_EnableCustomConditionEmission": 0.0,
+      "_EnableFloatWithShake": 0.0,
+      "_EnableGlobalLightGlimmer": 0.0,
+      "_EnableHeightBlend": 0.0,
+      "_EnableLampEmission": 0.0,
+      "_EnableManualWindDir": 1.0,
+      "_EnableRimGlow": 0.0,
+      "_EnableSSS": 1.0,
+      "_EnableSecondTex": 0.0,
+      "_EnableShake": 1.0,
+      "_EnableWaterWave": 0.0,
+      "_FillNormalGaps": 0.0,
+      "_FoldX": 1.0,
+      "_FoldY": 1.0,
+      "_Frequency": 1.0,
+      "_GlossMapScale": 1.0,
+      "_Glossiness": 0.5,
+      "_GlossyReflections": 1.0,
+      "_HeightContrast": 0.0,
+      "_HeightOffset": 0.0,
+      "_HeightSpread": 1.0,
+      "_InverseHeight": 0.0,
+      "_InvertBlend": 0.0,
+      "_LampRadius": 1.0,
+      "_LocalFrequency": 1.0,
+      "_LocalStrength": 1.0,
+      "_MaskBlendIntensity": 1.0,
+      "_MaskBlendMethod": 0.0,
+      "_MaterialShadowBias": 0.0,
+      "_MaxAmplitude": 1.8,
+      "_Metallic": 0.0,
+      "_Mode": 0.0,
+      "_MulAlbedo": 0.0,
+      "_NoiseDirScale": 1.221,
+      "_NoiseScale": 2.0,
+      "_Normal02_U_Speed": 0.0,
+      "_Normal02_V_Speed": 0.0,
+      "_NormalBlendIntensity": 1.0,
+      "_NormalBlendMethod": 0.0,
+      "_NormalMapScale": 0.0,
+      "_OcclusionStrength": 1.0,
+      "_Parallax": 0.02,
+      "_PolygonOffsetFactor": 0.0,
+      "_PolygonOffsetUnit": 0.0,
+      "_RGPower": 0.1,
+      "_RGStrength": 1.0,
+      "_RainIntensity": 0.2,
+      "_ReceiveShadow": 0.0,
+      "_ShakeAmplitudeStrength": 2.0,
+      "_ShakeFold": 0.28,
+      "_ShakeFrequency": 2.0,
+      "_ShakeMaxAmplitude": 1.5,
+      "_ShakeTurn": 0.0,
+      "_SmoothnessTextureChannel": 0.0,
+      "_SpecularHighlights": 1.0,
+      "_SrcBlend": 1.0,
+      "_TiltControl": 0.0,
+      "_UVSec": 0.0,
+      "_UseMainMaskAlphaAsEmission": 1.0,
+      "_UseSecondaryMaskAlphaAsEmission": 1.0,
+      "_WaterWaveScale": 0.0,
+      "_WaterWaveScaleRoot": 0.0,
+      "_ZWrite": 1.0
+    },
+    "m_Colors": {
+      "_Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_EmissionColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_LampColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_LampLocalPos": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ManualWindDir": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_MoveVector": {
+        "r": 0.5,
+        "g": 0.01,
+        "b": 0.5,
+        "a": 0.0
+      },
+      "_RGColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_ShakeMoveVector": {
+        "r": 0.05,
+        "g": 0.08,
+        "b": 0.05,
+        "a": 0.0
+      },
+      "_ShakeParam": {
+        "r": 2.0,
+        "g": 2.0,
+        "b": 2.0,
+        "a": 0.0
+      }
+    }
+  },
+  "m_Name": "Area_Dq_Ecloth_MS_Irodori_03",
+  "Name": "Area_Dq_Ecloth_MS_Irodori_03"
+}
