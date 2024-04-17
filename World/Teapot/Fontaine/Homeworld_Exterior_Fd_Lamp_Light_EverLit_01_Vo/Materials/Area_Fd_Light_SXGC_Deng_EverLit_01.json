@@ -1,0 +1,258 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 6989467795493829603,
+    "Name": "miHoYo/Scene/lamp",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_BreathingTexture": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_BumpMap": {
+        "m_Texture": {
+          "m_FileID": 2,
+          "m_PathID": -3150036047132450869,
+          "Name": "Area_Fd_Light_SXGC_Deng_01_Normal",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DetailMask": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -4841413558070973433,
+          "Name": "Area_Fd_Light_SXGC_Deng_01_SMBE",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_EmissionCurve": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MainTex": {
+        "m_Texture": {
+          "m_FileID": 4,
+          "m_PathID": 4753558953413897885,
+          "Name": "Area_Fd_Light_SXGC_Deng_01_Diffuse",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ReflectionCube": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecondaryBumpMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecondaryDetailMask": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecondaryTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "Emission_Type": 1.0,
+      "_BlackenAlbedo": 1.0,
+      "_BlendValueFrom": 0.0,
+      "_BreathingSpeed": 0.5,
+      "_BreathingStrength": 0.5,
+      "_BreathingTextureScale": 0.5,
+      "_BumpScale": 1.0,
+      "_CubeMapIntensity": 1.0,
+      "_CullMode": 2.0,
+      "_CutOff": 0.5,
+      "_Cutoff": 0.5,
+      "_DetailNormalMapScale": 1.0,
+      "_DiffuseBlendIntensity": 1.0,
+      "_DiffuseBlendMethod": 0.0,
+      "_DstBlend": 0.0,
+      "_ElementViewEleID": 0.0,
+      "_EmissionRand": 0.0,
+      "_EmissionRange": 0.01,
+      "_EmissionStrength": 3.52,
+      "_EmissionStrengthRand": 1.0,
+      "_EnableAlphaTest": 0.0,
+      "_EnableBreathing": 0.0,
+      "_EnableCustomConditionEmission": 1.0,
+      "_EnableLocalLightGlimmer": 0.0,
+      "_EnableRimGlow": 0.0,
+      "_EnableSecondTex": 0.0,
+      "_ExcludeWetTint": 0.0,
+      "_GlossMapScale": 1.0,
+      "_Glossiness": 0.5,
+      "_GlossyReflections": 1.0,
+      "_InvertBlend": 0.0,
+      "_LampRadius": 0.17,
+      "_MaskBlendIntensity": 1.0,
+      "_MaskBlendMethod": 0.0,
+      "_Metallic": 0.0,
+      "_Mode": 0.0,
+      "_MulAlbedo": 0.0,
+      "_NormalBlendIntensity": 1.0,
+      "_NormalBlendMethod": 0.0,
+      "_OcclusionStrength": 1.0,
+      "_OverrideMobileLODReflectionColor": 0.0,
+      "_Parallax": 0.02,
+      "_PolygonOffsetFactor": 0.0,
+      "_PolygonOffsetUnit": 0.0,
+      "_RGPower": 0.1,
+      "_RGStrength": 1.0,
+      "_SmoothnessTextureChannel": 0.0,
+      "_SpecularHighlights": 1.0,
+      "_SrcBlend": 1.0,
+      "_UVSec": 0.0,
+      "_UseMainMaskAlphaAsEmission": 1.0,
+      "_UseSecondaryMaskAlphaAsEmission": 1.0,
+      "_ZWrite": 1.0
+    },
+    "m_Colors": {
+      "_BreathingColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_CustomMobileLODReflectionColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_EmissionColor": {
+        "r": 1.0,
+        "g": 0.7254902,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_LampColor": {
+        "r": 0.875,
+        "g": 0.8266133,
+        "b": 0.45680147,
+        "a": 1.0
+      },
+      "_LampLocalPos": {
+        "r": 0.0,
+        "g": 0.47,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_RGColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Area_Fd_Light_SXGC_Deng_EverLit_01",
+  "Name": "Area_Fd_Light_SXGC_Deng_EverLit_01"
+}

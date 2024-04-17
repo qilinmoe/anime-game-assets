@@ -1,0 +1,242 @@
+{
+  "m_Shader": {
+    "m_FileID": 2,
+    "m_PathID": 8479026618350212406,
+    "Name": "miHoYo/Effects/SurrealTree",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_MainTex": {
+        "m_Texture": {
+          "m_FileID": 7,
+          "m_PathID": 4447070666880940624,
+          "Name": "Area_Fd_Prop_Common_Tiaolvji_01_Diffuse",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_Noise": {
+        "m_Texture": {
+          "m_FileID": 4,
+          "m_PathID": -8379413632892222623,
+          "Name": "Enviro_MilkyWay_Noise",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_NormalMap": {
+        "m_Texture": {
+          "m_FileID": 1,
+          "m_PathID": 502550021325543908,
+          "Name": "Area_Fd_Prop_Common_Tiaolvji_01_Normal",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_RimMask": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SeedEmissionTex": {
+        "m_Texture": {
+          "m_FileID": 6,
+          "m_PathID": -8332830415434400796,
+          "Name": "Area_Xm_Tree_SZL_Lnls_Star_02_Mask_NoMip",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_StarGradient": {
+        "m_Texture": {
+          "m_FileID": 5,
+          "m_PathID": -5342642806859281524,
+          "Name": "Enviro_Stars_Color_Palette_HighSaturation",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_StarMap": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -10706493796433151,
+          "Name": "Enviro_Stars_Big_2Channel",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 2.0,
+          "Y": 2.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SteamTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "_BendSpeed": 0.1,
+      "_BendSpeedMax": 0.2,
+      "_BumpScale": 1.0,
+      "_CamDistanceFadeOffset": -0.2,
+      "_CamDistanceFadeScale": 0.025,
+      "_CutOff": 0.8,
+      "_Cutoff": 0.5,
+      "_DetailNormalMapScale": 1.0,
+      "_DistortionIntensity": 0.02,
+      "_DstBlend": 0.0,
+      "_EmissionFade_MaxIntensity": 3.0,
+      "_EmissionFade_MinIntensity": 0.8,
+      "_EnableAlphaTest": 1.0,
+      "_EnableEmissionFade": 1.0,
+      "_EnableSeed": 1.0,
+      "_EnableSeedUV2": 0.0,
+      "_EnableWind": 0.0,
+      "_FlowSpeed": 6.12,
+      "_GlossMapScale": 1.0,
+      "_Glossiness": 0.5,
+      "_GlossyReflections": 1.0,
+      "_MHYZBias": 0.0,
+      "_Metallic": 0.0,
+      "_Mode": 0.0,
+      "_NormalMapIntensity": 1.0,
+      "_OcclusionStrength": 1.0,
+      "_Parallax": 0.02,
+      "_Rim_Exp": 5.0,
+      "_Rim_Intensity": 3.0,
+      "_SeedBaseIntensity": 1.0,
+      "_SideBendIntensity": 0.15,
+      "_SideBendIntensityMax": 0.8,
+      "_SideBendSoftness": 0.8,
+      "_SideBendVariance": 0.6,
+      "_SmoothnessTextureChannel": 0.0,
+      "_SpecularHighlights": 1.0,
+      "_SrcBlend": 1.0,
+      "_StarFlowSpeed": 1.0,
+      "_UVSec": 0.0,
+      "_WindIntensityByColorA": 0.0,
+      "_ZWrite": 1.0
+    },
+    "m_Colors": {
+      "_Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_EmissionColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_FlowColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_Fresnel": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_LeafSteamColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_SeedEmissionColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_StarTint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_SteamTint": {
+        "r": 0.5294118,
+        "g": 0.5294118,
+        "b": 0.5294118,
+        "a": 1.0
+      },
+      "_Tint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Area_Fd_Prop_Common_Tiaolvji_03",
+  "Name": "Area_Fd_Prop_Common_Tiaolvji_03"
+}

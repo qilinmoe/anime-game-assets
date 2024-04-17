@@ -1,0 +1,2875 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": -5543051865555466009,
+    "Name": "miHoYo/Uber/EffectStages/Effect_Uber_WaterFall",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_AlphaCurve": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_AttRefCube": {
+        "m_Texture": {
+          "m_FileID": 2,
+          "m_PathID": -8809932764500881771,
+          "Name": "",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DayColor": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DirectionDissolveTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_NormalTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_VertexAnimeTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_WffBumpMap": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -2651626842050519991,
+          "Name": "Eff_WaterFall03",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_WffBumpMap_CopyID_1": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -2651626842050519991,
+          "Name": "Eff_WaterFall03",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_WffBumpMap_CopyID_2": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -2651626842050519991,
+          "Name": "Eff_WaterFall03",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_WffBumpMap_CopyID_3": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -2651626842050519991,
+          "Name": "Eff_WaterFall03",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_WffBumpMap_CopyID_4": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -2651626842050519991,
+          "Name": "Eff_WaterFall03",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_WfpBumpMap": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -2651626842050519991,
+          "Name": "Eff_WaterFall03",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "_Alpha": 0.088,
+      "_AlphaBottomOffset": -0.49,
+      "_AlphaBottomRange": 20.0,
+      "_AlphaIntensity": 0.89,
+      "_AlphaOffset": -5.85,
+      "_AlphaRange": 1.37,
+      "_AlphaScaler": 1.0,
+      "_AlphaSoftedgePower": 0.5,
+      "_AlphaSoftedgeScale": 0.75,
+      "_ApplyAlphaCurve": 1.0,
+      "_ApplyEnvironmet": 1.0,
+      "_ApplyFog": 1.0,
+      "_ApplyLight": 0.434,
+      "_ApplyLocalLight": 1.0,
+      "_ApplyReflection": 5.19,
+      "_AttAlphaIntensity": 2.69,
+      "_AttAlphaRange": 0.1,
+      "_AttChangeViewTrick": 1.0,
+      "_AttColorLerpRangeEnd": 0.347,
+      "_AttColorLerpRangeStart": 0.07,
+      "_AttRefCube_SamplerType": 0.0,
+      "_AverageAmbient": 0.142,
+      "_BendFoamClip": 0.326,
+      "_BendFoamOffset": -0.058,
+      "_BendFoamWidth": 0.0,
+      "_BlendOP": 0.0,
+      "_BottomAlphaToggle": 1.0,
+      "_BottomFoamClip": 1.215,
+      "_BottomFoamClip2": 1.433,
+      "_BottomFoamSpeed": 1.1,
+      "_BottomFoamUScale": -2.12,
+      "_BottomFoamVScale": 3.06,
+      "_CloudShadowToggle": 0.0,
+      "_ColliderHiddenToggle": 0.0,
+      "_ColorGradientOffset": 0.02,
+      "_ColorGradientRange": 3.0,
+      "_ColorLerpRangeEnd": 0.124,
+      "_ColorLerpRangeStart": 0.0,
+      "_ColorMask": 15.0,
+      "_Cull": 0.0,
+      "_CustomColorGradingAlpha": 1.0,
+      "_DepthFade": 7.7,
+      "_DepthFoamAtten": 0.41,
+      "_DepthFoamClip": 0.4,
+      "_DepthFoamExtent": 0.001,
+      "_DepthThresh": 20.0,
+      "_Detail01_U_Speed": 0.02,
+      "_Detail01_V_Speed": 0.3,
+      "_DetailBrightness": 0.3,
+      "_DetailSpeed": 1.0,
+      "_DiffuseWrap": 0.91,
+      "_DirectionDissolveEdgeWidth": 0.037,
+      "_DirectionDissolveIntensity": 0.023,
+      "_DirectionDissolveTexChannelSwitch": 0.0,
+      "_DirectionDissolveTex_SamplerType": 0.0,
+      "_DirectionDissolveURandomToggle": 0.0,
+      "_DirectionDissolveUspeed": 0.02,
+      "_DirectionDissolveVRandomToggle": 0.0,
+      "_DirectionDissolveVspeed": 0.2,
+      "_DirectionMaskIntensity": 20.8,
+      "_DirectionMaskSwitch": 3.0,
+      "_DirectionMaskToggle": 1.0,
+      "_DstBlendMode": 10.0,
+      "_DummyMainSettings": 0.0,
+      "_Dx11ShaderPsScore": 409.0,
+      "_Dx11ShaderScore": 560.0,
+      "_Dx11ShaderVsScore": 151.0,
+      "_EffectedByFog": 0.0,
+      "_ElementViewToggle": 0.0,
+      "_EnableAlphaCameraFade": 0.0,
+      "_EnableAlphaDepthFade": 1.0,
+      "_EnableAlphaSoftEdgeFade": 0.0,
+      "_EnableColorGrading": 1.0,
+      "_EnableCustomColorGrading": 1.0,
+      "_EnableCustomMainNormal": 1.0,
+      "_EnableCustomParams": 0.0,
+      "_EnableCustomRP": 0.0,
+      "_EnableDirectionDissolve": 0.0,
+      "_EnableDistanceLerp": 0.0,
+      "_EnableEnvironment": 1.0,
+      "_EnableFresnel": 1.0,
+      "_EnableJitter": 0.0,
+      "_EnableLocalLight": 0.0,
+      "_EnableSimpleLuminaceMode": 0.0,
+      "_EnableVertexAnime": 0.0,
+      "_EnableWaterFallFoam": 1.0,
+      "_EnableWaterFallFoamPrePare": 1.0,
+      "_EnableWaterFallFoam_CopyID_1": 0.0,
+      "_EnableWaterFallFoam_CopyID_2": 0.0,
+      "_EnableWaterFallFoam_CopyID_3": 0.0,
+      "_EnableWaterFallFoam_CopyID_4": 1.0,
+      "_EnableWaterFallGradient": 1.0,
+      "_FallFoamClip": 0.052,
+      "_FallsFoamSpeed": 0.2,
+      "_FallsFoamUScale": -1.61,
+      "_FallsFoamVScale": 0.3,
+      "_FoamOffset": -0.4,
+      "_FoamRange": 4.0,
+      "_FoamRoughnes": 0.99,
+      "_FoamSoften": 0.145,
+      "_FresnelAlpha": 1.0,
+      "_FresnelColorAdditive": 0.0,
+      "_FresnelInvert": 1.0,
+      "_FresnelPow": 1.28,
+      "_FresnelPower": 2.0,
+      "_FresnelScale": 1.0,
+      "_KernelScale": 3.0,
+      "_MHYZBias": 0.0,
+      "_NoiseUVLerpIntensity": 0.287,
+      "_NoiselDistortionValue": 0.15,
+      "_Normal01_U_Speed": -0.1,
+      "_Normal01_VSpeed": 0.5,
+      "_Normal02_U_Speed": 0.1,
+      "_Normal02_V_Speed": 0.4,
+      "_NormalScale": 1.0,
+      "_NormalTexToggle": 0.0,
+      "_NormalTexUVRandomToggle": 0.0,
+      "_NormalTexUspeed": 0.0,
+      "_NormalTexVspeed": 0.0,
+      "_Opacity": 1.0,
+      "_PolygonOffsetFactor": 0.0,
+      "_PolygonOffsetUnit": 0.0,
+      "_ProjectionUVToggle": 1.0,
+      "_ReflectionBrightness": 1.0,
+      "_ReflectionIntensity": 0.498,
+      "_Roughness": 0.999,
+      "_SOFTPARTICLES": 1.0,
+      "_ShadowBump": 0.788,
+      "_ShadowInstensity": 0.648,
+      "_ShadowIntensity": 0.916,
+      "_ShadowStrength": 1.0,
+      "_SpecTex_U_Speed": 0.0,
+      "_Speed": 0.3,
+      "_SplashFoamClip": 2.0,
+      "_SplashTexChannelSwitch": 0.0,
+      "_SprayOffset": -1.01,
+      "_SprayRange": 3.2,
+      "_SrcBlendMode": 5.0,
+      "_StencilComp": 0.0,
+      "_StencilID": 0.0,
+      "_StencilOp": 0.0,
+      "_StencilReadMask": 255.0,
+      "_StencilWriteMask": 255.0,
+      "_TintVertexColorToggle": 0.0,
+      "_VertexAnimeInitOffsetRatio": 0.0,
+      "_VertexAnimeIntensity": 0.1,
+      "_VertexAnimeOffset": 0.0,
+      "_VertexAnimeTexChannelSwitch": 1.0,
+      "_VertexAnimeTexUVRandomToggle": 0.0,
+      "_VertexAnimeTex_SamplerType": 0.0,
+      "_VertexAnimeTex_Uspeed": 0.15,
+      "_VertexAnimeTex_Vspeed": 1.0,
+      "_VertexColorAToggle": 0.0,
+      "_VertexColorChannelSwitch": 0.0,
+      "_VertexColorRGBToggle": 0.0,
+      "_WaterFall01_Speed": 0.4,
+      "_Waterfall01Brightness": 0.5,
+      "_Waterfall02Brightness": 1.0,
+      "_Waterfall02_Speed": 0.6,
+      "_WffBendFoamOffset": 0.0,
+      "_WffBendFoamOffset_CopyID_1": 0.0,
+      "_WffBendFoamOffset_CopyID_2": 0.12,
+      "_WffBendFoamOffset_CopyID_3": 0.0,
+      "_WffBendFoamOffset_CopyID_4": 0.0,
+      "_WffBendFoamWidth": 0.0,
+      "_WffBendFoamWidth_CopyID_1": 0.0,
+      "_WffBendFoamWidth_CopyID_2": 0.1,
+      "_WffBendFoamWidth_CopyID_3": 0.0,
+      "_WffBendFoamWidth_CopyID_4": 0.0,
+      "_WffBumpMap_CopyID_1_SamplerType": 0.0,
+      "_WffBumpMap_CopyID_2_SamplerType": 0.0,
+      "_WffBumpMap_CopyID_3_SamplerType": 0.0,
+      "_WffBumpMap_CopyID_4_SamplerType": 0.0,
+      "_WffBumpMap_SamplerType": 0.0,
+      "_WffDepthFoamAtten": 0.0,
+      "_WffDepthFoamAtten_CopyID_1": 0.29,
+      "_WffDepthFoamAtten_CopyID_2": 0.0,
+      "_WffDepthFoamAtten_CopyID_3": 0.0,
+      "_WffDepthFoamAtten_CopyID_4": 0.0,
+      "_WffDepthFoamExtent": 0.0,
+      "_WffDepthFoamExtent_CopyID_1": 3.57,
+      "_WffDepthFoamExtent_CopyID_2": 0.0,
+      "_WffDepthFoamExtent_CopyID_3": 0.0,
+      "_WffDepthFoamExtent_CopyID_4": 0.0,
+      "_WffExtraTexture": 0.0,
+      "_WffExtraTexture_CopyID_1": 0.0,
+      "_WffExtraTexture_CopyID_2": 0.0,
+      "_WffExtraTexture_CopyID_3": 0.0,
+      "_WffExtraTexture_CopyID_4": 0.0,
+      "_WffFallFoamSpeed": 0.3,
+      "_WffFallFoamSpeed_CopyID_1": 0.55,
+      "_WffFallFoamSpeed_CopyID_2": 0.7,
+      "_WffFallFoamSpeed_CopyID_3": 0.5,
+      "_WffFallFoamSpeed_CopyID_4": 0.5,
+      "_WffFoamAlphaChannel": 1.0,
+      "_WffFoamAlphaChannel_CopyID_1": 2.0,
+      "_WffFoamAlphaChannel_CopyID_2": 0.0,
+      "_WffFoamAlphaChannel_CopyID_3": 0.0,
+      "_WffFoamAlphaChannel_CopyID_4": 0.0,
+      "_WffFoamClip": 0.09,
+      "_WffFoamClip_CopyID_1": 0.65,
+      "_WffFoamClip_CopyID_2": 0.39,
+      "_WffFoamClip_CopyID_3": 0.7,
+      "_WffFoamClip_CopyID_4": 0.95,
+      "_WffFoamMaskChannel": 3.0,
+      "_WffFoamMaskChannel_CopyID_1": 2.0,
+      "_WffFoamMaskChannel_CopyID_2": 2.0,
+      "_WffFoamMaskChannel_CopyID_3": 2.0,
+      "_WffFoamMaskChannel_CopyID_4": 2.0,
+      "_WffFoamSoften": 0.03,
+      "_WffFoamSoften_CopyID_1": 0.1,
+      "_WffFoamSoften_CopyID_2": 0.47,
+      "_WffFoamSoften_CopyID_3": 0.05,
+      "_WffFoamSoften_CopyID_4": 0.1,
+      "_WffFoamType": 1.0,
+      "_WffFoamType_CopyID_1": 0.0,
+      "_WffFoamType_CopyID_2": 2.0,
+      "_WffFoamType_CopyID_3": 3.0,
+      "_WffFoamType_CopyID_4": 4.0,
+      "_WffVertColorChannel": 1.0,
+      "_WffVertColorChannel_CopyID_1": 1.0,
+      "_WffVertColorChannel_CopyID_2": 2.0,
+      "_WffVertColorChannel_CopyID_3": 2.0,
+      "_WffVertColorChannel_CopyID_4": 3.0,
+      "_WffVertColorPow": 1.0,
+      "_WffVertColorPow_CopyID_1": 1.0,
+      "_WffVertColorPow_CopyID_2": 1.0,
+      "_WffVertColorPow_CopyID_3": 2.47,
+      "_WffVertColorPow_CopyID_4": 1.04,
+      "_WfpBumpMap_SamplerType": 0.0,
+      "_WfpNormalScale": 0.2,
+      "_WfpSpeed": 0.3,
+      "_Ztest": 4.0,
+      "_Zwrite": 0.0
+    },
+    "m_Colors": {
+      "_AlphaSoftedgePower_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AlphaSoftedgePower_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AlphaSoftedgePower_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AlphaSoftedgePower_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AlphaSoftedgeScale_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AlphaSoftedgeScale_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AlphaSoftedgeScale_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AlphaSoftedgeScale_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Alpha_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Alpha_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Alpha_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Alpha_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyAlphaCurve_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyAlphaCurve_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyAlphaCurve_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyAlphaCurve_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyFog_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyFog_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyFog_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyFog_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyLight_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyLight_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyLight_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyLight_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyLocalLight_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyLocalLight_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyLocalLight_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyLocalLight_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyReflection_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyReflection_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyReflection_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ApplyReflection_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttAlphaIntensity_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttAlphaIntensity_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttAlphaIntensity_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttAlphaIntensity_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttAlphaRange_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttAlphaRange_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttAlphaRange_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttAlphaRange_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttColorLerpRangeEnd_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttColorLerpRangeEnd_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttColorLerpRangeEnd_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttColorLerpRangeEnd_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttColorLerpRangeStart_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttColorLerpRangeStart_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttColorLerpRangeStart_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttColorLerpRangeStart_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttGradualColor": {
+        "r": 0.6301363,
+        "g": 0.7010975,
+        "b": 0.7720588,
+        "a": 1.0
+      },
+      "_AttGradualColor_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttGradualColor_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttGradualColor_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttGradualColor_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttRefBackgroundColor": {
+        "r": 0.3915,
+        "g": 0.45061374,
+        "b": 0.5,
+        "a": 1.0
+      },
+      "_AttRefBackgroundColor_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttRefBackgroundColor_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttRefBackgroundColor_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttRefBackgroundColor_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttRefForegroundColor": {
+        "r": 0.32547578,
+        "g": 0.49904546,
+        "b": 0.5147059,
+        "a": 1.0
+      },
+      "_AttRefForegroundColor_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttRefForegroundColor_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttRefForegroundColor_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AttRefForegroundColor_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_BendFoamColor": {
+        "r": 0.609,
+        "g": 0.54127896,
+        "b": 0.439698,
+        "a": 1.0
+      },
+      "_BottomColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_BottomFoamColor": {
+        "r": 0.5191561,
+        "g": 0.5885044,
+        "b": 0.684,
+        "a": 1.0
+      },
+      "_Color": {
+        "r": 2.0,
+        "g": 2.0,
+        "b": 2.0,
+        "a": 1.0
+      },
+      "_Color_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Color_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Color_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Color_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_CustomColorGradingColor": {
+        "r": 1.0,
+        "g": 0.94509804,
+        "b": 0.7921569,
+        "a": 1.0
+      },
+      "_DayColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_DepthFade_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DepthFade_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DepthFade_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DepthFade_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DepthFoamColor": {
+        "r": 0.441,
+        "g": 0.37928423,
+        "b": 0.323253,
+        "a": 1.0
+      },
+      "_DepthThresh_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DepthThresh_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DepthThresh_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DepthThresh_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DiffuseWrap_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DiffuseWrap_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DiffuseWrap_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DiffuseWrap_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveEdgeAlphaRamp": {
+        "r": 0.0,
+        "g": 0.5842451,
+        "b": 1.71161,
+        "a": 0.0
+      },
+      "_DirectionDissolveEdgeColor1": {
+        "r": 3.0,
+        "g": 3.0,
+        "b": 3.0,
+        "a": 1.0
+      },
+      "_DirectionDissolveEdgeColor1_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveEdgeColor1_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveEdgeColor1_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveEdgeColor1_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveEdgeColor2": {
+        "r": 0.7969999,
+        "g": 0.8992,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_DirectionDissolveEdgeColor2_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveEdgeColor2_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveEdgeColor2_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveEdgeColor2_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveEdgeColorRamp": {
+        "r": 0.0,
+        "g": 0.3362509,
+        "b": 2.97397,
+        "a": 0.0
+      },
+      "_DirectionDissolveEdgeWidth_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveEdgeWidth_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveEdgeWidth_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveEdgeWidth_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveIntensity_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveIntensity_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveIntensity_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveIntensity_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveTexST": {
+        "r": 2.0,
+        "g": 0.15,
+        "b": 6.27,
+        "a": 1.0
+      },
+      "_DirectionDissolveUspeed_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveUspeed_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveUspeed_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveUspeed_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveVspeed_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveVspeed_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveVspeed_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionDissolveVspeed_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionMaskDir": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_DirectionMaskIntensity_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionMaskIntensity_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionMaskIntensity_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionMaskIntensity_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_DirectionMaskRamp": {
+        "r": 0.0,
+        "g": 21.701,
+        "b": 0.046080824,
+        "a": 0.0
+      },
+      "_DistortionIntensity": {
+        "r": 0.43399996,
+        "g": 0.4815517,
+        "b": 0.6589999,
+        "a": 0.0
+      },
+      "_FallFoamColor": {
+        "r": 0.675648,
+        "g": 0.816,
+        "b": 0.7753463,
+        "a": 1.0
+      },
+      "_FoamColor": {
+        "r": 0.7654087,
+        "g": 0.8210312,
+        "b": 0.8602941,
+        "a": 1.0
+      },
+      "_FoamUVCoord01": {
+        "r": 0.3,
+        "g": 0.5,
+        "b": 0.0,
+        "a": 0.2
+      },
+      "_FoamUVCoord02": {
+        "r": 0.3,
+        "g": 0.7,
+        "b": 0.0,
+        "a": 0.5
+      },
+      "_FresnelColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_FresnelColor_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FresnelColor_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FresnelColor_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FresnelColor_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FresnelPower_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FresnelPower_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FresnelPower_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FresnelPower_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FresnelScale_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FresnelScale_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FresnelScale_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FresnelScale_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_GradualColor": {
+        "r": 0.49492297,
+        "g": 0.49699998,
+        "b": 0.346409,
+        "a": 1.0
+      },
+      "_KernelScale_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_KernelScale_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_KernelScale_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_KernelScale_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_MainColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MeshParticleColorArray": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_NoiseUVLerpIntensity_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NoiseUVLerpIntensity_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NoiseUVLerpIntensity_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NoiseUVLerpIntensity_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalScale_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalScale_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalScale_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalScale_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexST": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexUspeed_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexUspeed_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexUspeed_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexUspeed_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexVspeed_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexVspeed_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexVspeed_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_NormalTexVspeed_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_PlaneNormal": {
+        "r": 0.0,
+        "g": -1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_PlaneNormalVecU": {
+        "r": -1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_PlaneNormalVecV": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_ProjectionST": {
+        "r": 0.6,
+        "g": 0.4,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_RefBackgroundColor": {
+        "r": 0.42387444,
+        "g": 0.4627451,
+        "b": 0.44505227,
+        "a": 1.0
+      },
+      "_RefForegroundColor": {
+        "r": 0.55161154,
+        "g": 0.598,
+        "b": 0.42099175,
+        "a": 0.0
+      },
+      "_ReflectionColor_Dark": {
+        "r": 0.18014702,
+        "g": 0.54168344,
+        "b": 0.7205882,
+        "a": 1.0
+      },
+      "_ReflectionColor_Light": {
+        "r": 0.9117647,
+        "g": 0.98904663,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_Roughness_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Roughness_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Roughness_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_Roughness_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ShadowInstensity_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ShadowInstensity_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ShadowInstensity_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ShadowInstensity_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_SplashFoamColor": {
+        "r": 1.0,
+        "g": 0.94689655,
+        "b": 0.89,
+        "a": 0.647
+      },
+      "_TopColor": {
+        "r": 0.47058812,
+        "g": 0.76592296,
+        "b": 0.9411765,
+        "a": 1.0
+      },
+      "_VertexAnimeInitOffset": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeInitOffsetRatio_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeInitOffsetRatio_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeInitOffsetRatio_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeInitOffsetRatio_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeIntensity_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeIntensity_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeIntensity_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeIntensity_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeOffset_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeOffset_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeOffset_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeOffset_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeTexST": {
+        "r": 2.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeTex_Uspeed_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeTex_Uspeed_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeTex_Uspeed_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeTex_Uspeed_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeTex_Vspeed_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeTex_Vspeed_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeTex_Vspeed_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VertexAnimeTex_Vspeed_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WaterMeshScale": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_WaterfallPatternColor": {
+        "r": 0.75735295,
+        "g": 0.92971605,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_WaterfallSpecColor": {
+        "r": 0.6020761,
+        "g": 0.7387544,
+        "b": 0.85294116,
+        "a": 1.0
+      },
+      "_WffBendFoamOffset_CopyID_1_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_CopyID_1_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_CopyID_1_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_CopyID_1_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_CopyID_2_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_CopyID_2_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_CopyID_2_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_CopyID_2_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_CopyID_3_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_CopyID_3_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_CopyID_3_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_CopyID_3_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_CopyID_4_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_CopyID_4_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_CopyID_4_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_CopyID_4_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamOffset_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_CopyID_1_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_CopyID_1_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_CopyID_1_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_CopyID_1_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_CopyID_2_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_CopyID_2_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_CopyID_2_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_CopyID_2_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_CopyID_3_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_CopyID_3_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_CopyID_3_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_CopyID_3_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_CopyID_4_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_CopyID_4_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_CopyID_4_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_CopyID_4_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffBendFoamWidth_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_CopyID_1_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_CopyID_1_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_CopyID_1_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_CopyID_1_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_CopyID_2_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_CopyID_2_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_CopyID_2_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_CopyID_2_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_CopyID_3_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_CopyID_3_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_CopyID_3_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_CopyID_3_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_CopyID_4_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_CopyID_4_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_CopyID_4_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_CopyID_4_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamAtten_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_CopyID_1_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_CopyID_1_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_CopyID_1_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_CopyID_1_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_CopyID_2_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_CopyID_2_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_CopyID_2_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_CopyID_2_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_CopyID_3_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_CopyID_3_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_CopyID_3_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_CopyID_3_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_CopyID_4_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_CopyID_4_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_CopyID_4_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_CopyID_4_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffDepthFoamExtent_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_CopyID_1_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_CopyID_1_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_CopyID_1_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_CopyID_1_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_CopyID_2_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_CopyID_2_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_CopyID_2_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_CopyID_2_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_CopyID_3_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_CopyID_3_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_CopyID_3_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_CopyID_3_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_CopyID_4_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_CopyID_4_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_CopyID_4_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_CopyID_4_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallFoamSpeed_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallsFoamUVScale": {
+        "r": 5.0,
+        "g": 0.65,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallsFoamUVScale_CopyID_1": {
+        "r": 2.71,
+        "g": 1.21,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallsFoamUVScale_CopyID_2": {
+        "r": 1.0,
+        "g": 0.5,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallsFoamUVScale_CopyID_3": {
+        "r": 1.0,
+        "g": 1.1,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFallsFoamUVScale_CopyID_4": {
+        "r": 4.0,
+        "g": 4.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_CopyID_1_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_CopyID_1_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_CopyID_1_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_CopyID_1_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_CopyID_2_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_CopyID_2_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_CopyID_2_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_CopyID_2_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_CopyID_3_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_CopyID_3_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_CopyID_3_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_CopyID_3_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_CopyID_4_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_CopyID_4_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_CopyID_4_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_CopyID_4_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamClip_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor": {
+        "r": 0.9442626,
+        "g": 1.1016396,
+        "b": 1.2000002,
+        "a": 1.0
+      },
+      "_WffFoamColor_CopyID_1": {
+        "r": 1.209375,
+        "g": 1.275,
+        "b": 1.266853,
+        "a": 1.0
+      },
+      "_WffFoamColor_CopyID_1_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_CopyID_1_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_CopyID_1_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_CopyID_1_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_CopyID_2": {
+        "r": 2.1411767,
+        "g": 2.5036917,
+        "b": 3.0,
+        "a": 0.39
+      },
+      "_WffFoamColor_CopyID_2_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_CopyID_2_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_CopyID_2_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_CopyID_2_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_CopyID_3": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_WffFoamColor_CopyID_3_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_CopyID_3_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_CopyID_3_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_CopyID_3_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_CopyID_4": {
+        "r": 0.75,
+        "g": 0.75,
+        "b": 0.75,
+        "a": 1.0
+      },
+      "_WffFoamColor_CopyID_4_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_CopyID_4_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_CopyID_4_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_CopyID_4_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamColor_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_CopyID_1_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_CopyID_1_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_CopyID_1_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_CopyID_1_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_CopyID_2_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_CopyID_2_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_CopyID_2_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_CopyID_2_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_CopyID_3_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_CopyID_3_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_CopyID_3_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_CopyID_3_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_CopyID_4_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_CopyID_4_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_CopyID_4_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_CopyID_4_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffFoamSoften_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_CopyID_1_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_CopyID_1_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_CopyID_1_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_CopyID_1_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_CopyID_2_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_CopyID_2_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_CopyID_2_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_CopyID_2_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_CopyID_3_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_CopyID_3_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_CopyID_3_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_CopyID_3_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_CopyID_4_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_CopyID_4_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_CopyID_4_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_CopyID_4_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WffVertColorPow_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WfpBumpMapST": {
+        "r": 0.25,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_WfpNormalScale_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WfpNormalScale_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WfpNormalScale_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WfpNormalScale_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WfpSpeed_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WfpSpeed_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WfpSpeed_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_WfpSpeed_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      }
+    }
+  },
+  "m_Name": "Eff_Stages_POI_Fd_SPD_TrveiFountain_03",
+  "Name": "Eff_Stages_POI_Fd_SPD_TrveiFountain_03"
+}

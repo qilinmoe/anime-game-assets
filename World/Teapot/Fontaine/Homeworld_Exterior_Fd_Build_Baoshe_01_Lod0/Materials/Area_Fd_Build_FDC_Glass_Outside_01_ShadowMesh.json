@@ -1,0 +1,44 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": -7540671909298227576,
+    "Name": "miHoYo/Shadow/Colored Shadow Caster",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_MainTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "_ColoredShadowDitherTransition": 1.0,
+      "_ColoredShadowFadeToTransparent": 0.0,
+      "_CullMode": 2.0
+    },
+    "m_Colors": {
+      "_ColoredShadowColor": {
+        "r": 0.5741782,
+        "g": 0.8312164,
+        "b": 0.86764705,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Area_Fd_Build_FDC_Glass_Outside_01_ShadowMesh",
+  "Name": "Area_Fd_Build_FDC_Glass_Outside_01_ShadowMesh"
+}

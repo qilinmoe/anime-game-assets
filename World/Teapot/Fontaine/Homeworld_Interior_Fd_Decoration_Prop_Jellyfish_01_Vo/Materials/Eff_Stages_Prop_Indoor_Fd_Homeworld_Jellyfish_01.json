@@ -1,0 +1,387 @@
+{
+  "m_Shader": {
+    "m_FileID": 2,
+    "m_PathID": -502822672806523409,
+    "Name": "miHoYo/Boids/ArtBoidsMobile_JellyFish",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_BoidsTRSAndIdPack": {
+        "m_Texture": {
+          "m_FileID": 1,
+          "m_PathID": 3988032134329757796,
+          "Name": "Eff_Stages_ArtBoidsMobile_DefaultSmall_LuminousJellyfish_MatrixData_01_VAT",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DitherByLifetimeCurve": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 3.0,
+          "Y": 1.005505
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_FishAlbedo": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": 1887593356183505086,
+          "Name": "Eff_Stages_ArtBoids_Path_LuminousJellyfish_Diffuse",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_FishNormalMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_FishShadingDataMap": {
+        "m_Texture": {
+          "m_FileID": 4,
+          "m_PathID": -6193488094975941693,
+          "Name": "Eff_Stages_ArtBoids_Path_LuminousJellyfish_Mask",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_PositionOverLifetimePack_Common": {
+        "m_Texture": {
+          "m_FileID": 5,
+          "m_PathID": 948694557227866514,
+          "Name": "Eff_Stages_ArtBoidsMobile_JellyFish_Plankton_VAT",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "_AlphaClip": 0.0,
+      "_AutoRotationOn": 1.0,
+      "_BakedMovementTextures": 0.0,
+      "_BillboardAngleLimit": 0.0,
+      "_BillboardAngleThresh": 0.0,
+      "_BodyTimeOffset": 0.005,
+      "_BoidsFlockRandomSeed": 1.0,
+      "_CPUDriveSettings": 0.0,
+      "_CPUDrivenBoids_Offset_VelSpaceX": 0.0,
+      "_CPUDrivenBoids_Offset_VelSpaceY": 0.0,
+      "_CPUDrivenBoids_Offset_VelSpaceZ": 0.0,
+      "_CircleRadius": 1.0,
+      "_ClipIdPower": 1.0,
+      "_CohesionFlag": 0.0,
+      "_CohesionSettings": 0.0,
+      "_CullMode": 2.0,
+      "_CurrentDriveTime": 0.0,
+      "_DistanceFadeLengthFar": 0.05,
+      "_DistanceFadeLengthNear": 0.05,
+      "_DistanceFadeOffsetFar": 30.0,
+      "_DistanceFadeOffsetNear": 0.5,
+      "_DitherAlpha": 1.0,
+      "_DitherByCameraDistance": 1.0,
+      "_DitherByLifetime": 1.0,
+      "_DitherSettings": 0.0,
+      "_Dx11ShaderPsScore": 44.0,
+      "_Dx11ShaderScore": 362.0,
+      "_Dx11ShaderVsScore": 318.0,
+      "_ElementViewEleID": 0.0,
+      "_ElementViewSettings": 0.0,
+      "_EmissionIntensity": 10.0,
+      "_EmissionIntensitySecond": 2.0,
+      "_EnablePeriodicFlockFlow": 0.0,
+      "_EscapeFlag": 1.0,
+      "_EscapeSettings": 0.0,
+      "_ExtraSettings": 0.0,
+      "_FishMesh": 1.0,
+      "_FishRandomBehaviourOn": 1.0,
+      "_FishSettings": 0.0,
+      "_FishSpeciesRatio": 0.703,
+      "_FishUVAnimationSettings": 0.0,
+      "_GlobalInteractionSettings": 0.0,
+      "_GlobalToggles": 0.0,
+      "_InteractionOn": 0.0,
+      "_InverseLifetime": 0.0,
+      "_IsStepSpecies": 0.0,
+      "_JellyCenterTantacleWaveAmplitude": 0.1,
+      "_JellyCenterTantacleWaveFreq": 3.0,
+      "_JellyCenterTantacleWavePhase": 0.2,
+      "_JellyCenterTantacleWaveSpeed": 2.0,
+      "_JellyWaveAmplitude": 0.175,
+      "_JellyWaveAmplitudeForward": 0.2,
+      "_JellyWaveFreq": 3.0,
+      "_JellyWaveFreqForward": 6.0,
+      "_JellyWavePhase": 0.0,
+      "_JellyWavePhaseForward": 0.0,
+      "_JellyWaveSpeed": 2.0,
+      "_JellyWaveSpeedForward": 2.0,
+      "_LerpLightColorInTransmission": 0.0,
+      "_LifeCycleTime": 50.0,
+      "_ManualLifetimeOffset": 0.0,
+      "_MaxInteractionDistance": 0.9999,
+      "_MaxLifeCycleTime": 0.5,
+      "_MaxUvOffset": 0.0,
+      "_MaxUvRotation": 0.0,
+      "_MaxUvScale": 1.0,
+      "_MeshIdClip": 0.0,
+      "_MotionIdPower": 1.0,
+      "_MovementSettings": 0.0,
+      "_NormalMapOn": 0.0,
+      "_NormalScale": 0.0,
+      "_OneShotEscapeClipThresh": 0.8,
+      "_OneShotEscapeMultiplier": 0.0,
+      "_OneShotEscapeOn": 0.0,
+      "_OneShotEscapeProgress": 0.0,
+      "_ParamPath": 0.0,
+      "_ParametrizedPathSettings": 0.0,
+      "_PathId": 0.0,
+      "_PeriodicFlockFlowNegCompensate": 0.5,
+      "_PhaseByMeshId": 0.5,
+      "_PhaseByMeshIdMultiplier": 0.8,
+      "_PlaneFishBillboardSettings": 0.0,
+      "_PlayerInteractionOnly": 0.0,
+      "_RimGlow": 15.0,
+      "_RimGlowPower": 2.0,
+      "_RotationOn": 1.0,
+      "_SelfEmissionWeight": 0.8,
+      "_SelfRotatePower": 0.0,
+      "_SelfRotateSpeed": 0.0,
+      "_ShadingIdPower": 1.0,
+      "_ShadingMaskWeight": 0.2,
+      "_ShadingSettings": 0.0,
+      "_ShadingSettingsSecond": 0.0,
+      "_SingleBoidOnlyOn": 0.0,
+      "_SizeScale01": 0.075,
+      "_SkipTAA": 0.0,
+      "_Transmission": 0.5,
+      "_UseCameraPush": 0.0,
+      "_UseDriveTime": 0.0,
+      "_UseMotionIdForShading": 0.0,
+      "_UseOverrideForwardDir": 0.0,
+      "_VertexAnimationSettings": 0.0,
+      "_WiggleOn": 1.0,
+      "_WorldSpaceRandomOffset": 0.0
+    },
+    "m_Colors": {
+      "_BoidsFlockRandomSeed": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_CircleCenter": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_CohesionMovementMultiplier": {
+        "r": 7.0,
+        "g": 7.0,
+        "b": 7.0,
+        "a": 1.0
+      },
+      "_ColorTint": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_ColorTintSecond": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_DriveVelocityOS": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionColor": {
+        "r": 0.48200023,
+        "g": 0.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_EmissionColorSecond": {
+        "r": 0.4779999,
+        "g": 0.7744959,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_EscapeBehaviour": {
+        "r": 3.0,
+        "g": 3.0,
+        "b": 5.0,
+        "a": 5.0
+      },
+      "_EscapeMultiplier": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_FearnessWaveX": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FearnessWaveY": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_InteractionDistanceMinMax": {
+        "r": 5.0,
+        "g": 15.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_InteractionPositionWS": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_JellySinCosCompensateXY": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 0.0
+      },
+      "_MeshScaleMinMax": {
+        "r": 0.75,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_MovementMultiplier": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_OneShotEscapePositionWS": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_OverrideForwardDir": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_PeriodicFlockFlow": {
+        "r": 1.0,
+        "g": 5.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_PeriodicFlockFlowPhase": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_RimGlowColor": {
+        "r": 0.43015534,
+        "g": 0.1568625,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_ScaleDistanceControl": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 10.0,
+        "a": 20.0
+      },
+      "_SpecularParams": {
+        "r": 3.5,
+        "g": 6.5,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_TRS_T_Multiplier": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1,
+        "a": 0.0
+      },
+      "_ToonShadoWParams": {
+        "r": 0.5,
+        "g": 0.05,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_ToonShadowTint": {
+        "r": 0.8235294,
+        "g": 0.8235294,
+        "b": 0.8235294,
+        "a": 1.0
+      },
+      "_ToonShadowTintCool": {
+        "r": 0.9,
+        "g": 0.7,
+        "b": 0.75,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Eff_Stages_Prop_Indoor_Fd_Homeworld_Jellyfish_01",
+  "Name": "Eff_Stages_Prop_Indoor_Fd_Homeworld_Jellyfish_01"
+}

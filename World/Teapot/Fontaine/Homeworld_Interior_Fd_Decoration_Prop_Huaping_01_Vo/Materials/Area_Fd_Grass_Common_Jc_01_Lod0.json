@@ -1,0 +1,280 @@
+{
+  "m_Shader": {
+    "m_FileID": 2,
+    "m_PathID": 4340477518582569291,
+    "Name": "Nature/Afs Bush",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_BlueNoiseTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_BumpTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ColorSetLUT": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ESA": {
+        "m_Texture": {
+          "m_FileID": 3,
+          "m_PathID": -7251517472619634560,
+          "Name": "Area_Fd_Grass_Common_Jc_ESA",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_EmissionCurve": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MainTex": {
+        "m_Texture": {
+          "m_FileID": 1,
+          "m_PathID": -6011042166068992453,
+          "Name": "Area_Fd_Grass_Common_Jc_Diffuse",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_NoiseTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SSSTranslucencyMap": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SecondColorIDTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": null,
+    "m_Floats": {
+      "Emission_Type": 0.0,
+      "Wind": 1.0,
+      "_AOIntensity": 0.0,
+      "_AlphaLength": 0.0,
+      "_AlphaOffset": 0.0,
+      "_AmplitudeStrength": 1.0,
+      "_AnimationSpeed": 1.0,
+      "_BendSpeed": 0.15,
+      "_BendSpeedMax": 0.3,
+      "_BumpScale": 1.0,
+      "_ClipEnhance": 0.1,
+      "_ClipEnhanceDistance": 100.0,
+      "_CollisionOn": 1.0,
+      "_CullMode": 0.0,
+      "_CustomDitherAlpha": 0.0,
+      "_CustomSSSProfile": 0.4,
+      "_CutOff": 0.5,
+      "_Cutoff": 0.5,
+      "_DepthBiasScaled": 2.5,
+      "_DetailNormalMapScale": 1.0,
+      "_DitherAlpha": 1.0,
+      "_DitherReverse": 0.0,
+      "_DstBlend": 0.0,
+      "_ElementViewEleID": 0.0,
+      "_EmissionRange": 0.001,
+      "_EmissionStrength": 1.0,
+      "_Enable6IDColorLut": 0.0,
+      "_EnableDepthBlend": 0.0,
+      "_EnableEmissionAnimation": 0.0,
+      "_EnableNormalMap": 1.0,
+      "_EnableSSS": 0.0,
+      "_FlipBackfaceNormal": 0.0,
+      "_GlossMapScale": 1.0,
+      "_Glossiness": 0.5,
+      "_GlossyReflections": 1.0,
+      "_Help": 0.0,
+      "_IsDisableLightClamping": 0.0,
+      "_LTDistortion": 0.058,
+      "_LTPower": 2.5,
+      "_LTScale": 0.047,
+      "_LUTIndex": 0.0,
+      "_LocalFrequency": 1.0,
+      "_LocalStrength": 5.0,
+      "_Metallic": 0.0,
+      "_Mode": 0.0,
+      "_MulAlbedo": 0.0,
+      "_NoiseIntensity": 0.99,
+      "_NoiseMinIntensity": 0.0,
+      "_NoiseRange": 1.5,
+      "_OcclusionStrength": 1.0,
+      "_Parallax": 0.02,
+      "_PolygonOffsetFactor": 0.0,
+      "_PolygonOffsetUnit": 0.0,
+      "_PushStrength": 0.3,
+      "_RainIntensity": 0.2,
+      "_SceneWind": 0.0,
+      "_ShadowBias": 0.0,
+      "_SideBendIntensity": 0.15,
+      "_SideBendIntensityMax": 0.3,
+      "_SideBendSoftness": 0.4,
+      "_SideBendVariance": 0.5,
+      "_SimpleLTBackFaceOnly": 0.0,
+      "_SimpleLTNormalScale": 1.0,
+      "_SimpleLTScale": 0.0,
+      "_SmoothnessTextureChannel": 0.0,
+      "_SpecularHighlights": 1.0,
+      "_SrcBlend": 1.0,
+      "_TiltControl": 0.0,
+      "_UVSec": 0.0,
+      "_UseBushShadowIntensity": 0.0,
+      "_UseColorLut": 0.0,
+      "_UseMotionWind": 0.0,
+      "_UseSimpleLT": 0.0,
+      "_UseSimpleLTOnPC": 0.0,
+      "_UsevertexColorAsCenter": 0.0,
+      "_UsingCityRoot": 0.0,
+      "_UsingDither": 0.0,
+      "_UsingDitherAlpha": 0.0,
+      "_WindIntensityByColorA": 0.0,
+      "_WindRatio": 1.0,
+      "_ZWrite": 1.0
+    },
+    "m_Colors": {
+      "_Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_DitherCityRoot": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MotionDumpVector": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_MoveDirVector": {
+        "r": 0.1,
+        "g": 0.02,
+        "b": 0.1,
+        "a": 0.0
+      },
+      "_NoiseTilling": {
+        "r": 0.01,
+        "g": 0.01,
+        "b": 0.088,
+        "a": 0.011
+      }
+    }
+  },
+  "m_Name": "Area_Fd_Grass_Common_Jc_01_Lod0",
+  "Name": "Area_Fd_Grass_Common_Jc_01_Lod0"
+}
