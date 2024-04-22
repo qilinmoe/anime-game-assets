@@ -36,7 +36,7 @@
     </table>
 </div>
 
-<h4 align="center"> <b>[ !!! ]</b> <br> You can use <a href="https://minhaskamal.github.io/DownGit/">DownGit</a> to download individual folders that you want instead of downloading everything.</h4>
+<h4 align="center"> <b>[ !!! ]</b> <br> You can use <a href="https://micchi-108.github.io/DownGit-Micchi/">DownGit</a> to download individual folders that you want instead of downloading everything.</h4>
 
 ###
 
@@ -45,7 +45,7 @@
 ###
 
 <h4 align="center">models exported<br>with ♡︎ by nana</h4>
-<h4 align="center">special thanks to: <br>razmoth<br>yarik<br>mero</h4>
+<h4 align="center">special thanks to: <br>razmoth<br>yarik<br>mero<br>micchi</h4>
 
 <br clear="both">
 
