@@ -11,11 +11,11 @@
 ###
 
 <div align="center">
-  <img height="300" src="https://media.discordapp.net/attachments/1130533452991713320/1231846798700843112/378515245_984804762747003_8905683916205057951_n.png?ex=663871bb&is=6625fcbb&hm=121a9417077ba7ab2747cf5d7d36c0a728eba68a6d39f4af15ddd45807b182fc"/>
+  <img height="300" src="https://upload-os-bbs.hoyolab.com/upload/2023/08/12/316229808/04aabcfb3133f4ea87c39bd4433ae0b0_3724476514488165898.jpg"/>
 </div>
 
 ###
-<p align="center"><b>Current Version: 4.6 (partial)</b></p>
+<p align="center"><b>Current Version: 4.7</b></p>
 <div align="center">
     <table align="center">
         <tr>
