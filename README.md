@@ -11,7 +11,7 @@
 ###
 
 <div align="center">
-  <img height="300" src="https://upload-os-bbs.hoyolab.com/upload/2023/08/12/316229808/04aabcfb3133f4ea87c39bd4433ae0b0_3724476514488165898.jpg"/>
+  <img height="300" src="https://pbs.twimg.com/media/FkbGPxIUUAA4TsG?format=jpg"/>
 </div>
 
 ###
