@@ -2,7 +2,7 @@
   "m_Shader": {
     "m_FileID": 1,
     "m_PathID": -6868644443425792852,
-    "Name": "",
+    "Name": "miHoYo/Character/Base",
     "IsNull": false
   },
   "m_SavedProperties": {
@@ -224,6 +224,7 @@
       "_FaceBlushStrength": 0.0,
       "_FaceMapRotateOffset": 0.0,
       "_FaceMapSoftness": 0.001,
+      "_FlareType": 0.0,
       "_HitColorFresnelPower": 1.5,
       "_HitColorScaler": 6.0,
       "_InstanceData": 0.0,
@@ -240,6 +241,7 @@
       "_MainTexColoring": 0.0,
       "_MaxOutlineZOffset": 1.0,
       "_MetalMaterial": 0.0,
+      "_OutlineMotionVectorsCull": 1.0,
       "_OutlinePolygonOffsetFactor": 4.0,
       "_OutlinePolygonOffsetUnit": 1.0,
       "_OutlineType": 2.0,
