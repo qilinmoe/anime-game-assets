@@ -15,7 +15,7 @@
 </div>
 
 ###
-<p align="center"><b>Current Version: 4.7</b></p>
+<p align="center"><b>Current Version: 5.1</b></p>
 <div align="center">
     <table align="center">
         <tr>
