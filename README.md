@@ -11,7 +11,7 @@
 ###
 
 <div align="center">
-  <img height="300" src="https://pbs.twimg.com/media/FkbGPxIUUAA4TsG?format=jpg"/>
+  <img height="300" src="https://github.com/jade-chamber/neatly-stacked-scrolls/blob/main/anime-game-assets/5.2/png/readmeme.png?raw=true"/>
 </div>
 
 ###
