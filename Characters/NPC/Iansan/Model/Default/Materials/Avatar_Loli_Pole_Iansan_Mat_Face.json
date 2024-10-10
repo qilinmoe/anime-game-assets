@@ -25,7 +25,7 @@
       },
       "_FaceMapTex": {
         "m_Texture": {
-          "m_FileID": 3,
+          "m_FileID": 6,
           "m_PathID": 6868546198463101467,
           "Name": "Avatar_Loli01_Tex_FaceLightmap",
           "IsNull": false
@@ -57,7 +57,7 @@
       },
       "_LightMapTex": {
         "m_Texture": {
-          "m_FileID": 2,
+          "m_FileID": 4,
           "m_PathID": -5625278773930275915,
           "Name": "Avatar_Tex_Face01_Shadow",
           "IsNull": false
@@ -105,7 +105,7 @@
       },
       "_MainTex": {
         "m_Texture": {
-          "m_FileID": 4,
+          "m_FileID": 7,
           "m_PathID": 1492698302395189910,
           "Name": "Avatar_Loli_Pole_Iansan_Tex_Face_Diffuse",
           "IsNull": false
@@ -153,10 +153,10 @@
       },
       "_NyxStateOutlineColorRamp": {
         "m_Texture": {
-          "m_FileID": 0,
-          "m_PathID": 0,
-          "Name": "",
-          "IsNull": true
+          "m_FileID": 5,
+          "m_PathID": 2824156226152992741,
+          "Name": "Avatar_Loli_Pole_Iansan_NyxState_Ramp",
+          "IsNull": false
         },
         "m_Scale": {
           "X": 1.0,
@@ -169,10 +169,10 @@
       },
       "_NyxStateOutlineNoise": {
         "m_Texture": {
-          "m_FileID": 0,
-          "m_PathID": 0,
-          "Name": "",
-          "IsNull": true
+          "m_FileID": 2,
+          "m_PathID": 1718990294553321755,
+          "Name": "Eff_Avatar_NyxState",
+          "IsNull": false
         },
         "m_Scale": {
           "X": 1.0,
@@ -217,10 +217,10 @@
       },
       "_TempNyxStatePaintMaskTex": {
         "m_Texture": {
-          "m_FileID": 0,
-          "m_PathID": 0,
-          "Name": "",
-          "IsNull": true
+          "m_FileID": 3,
+          "m_PathID": 2263821684837618205,
+          "Name": "Avatar_Loli_Pole_Iansan_Tex_Mask",
+          "IsNull": false
         },
         "m_Scale": {
           "X": 1.0,
@@ -291,9 +291,9 @@
       "_DummyOutline": 0.0,
       "_DummyTextureLine": 0.0,
       "_DummyUseDither": 0.0,
-      "_Dx11ShaderPsScore": 109.0,
-      "_Dx11ShaderScore": 238.0,
-      "_Dx11ShaderVsScore": 129.0,
+      "_Dx11ShaderPsScore": 105.0,
+      "_Dx11ShaderScore": 236.0,
+      "_Dx11ShaderVsScore": 130.0,
       "_ElementViewEleID": 0.0,
       "_EmissionScaler": 1.0,
       "_EmissionScaler1": 1.0,
@@ -323,6 +323,7 @@
       "_MTSpecularAttenInShadow": 0.2,
       "_MTSpecularOffset": 0.0,
       "_MTSpecularScale": 60.0,
+      "_MTSpecularShadowScale": 0.0,
       "_MTUseSpecularRamp": 0.0,
       "_MainSettingsGroup": 0.0,
       "_MainTexAlphaCutoff": 0.5,
@@ -334,13 +335,13 @@
       "_NormalMapOffset": 0.0,
       "_NormalMapScale": 0.0,
       "_NpcColoring": 0.0,
-      "_NyxStateEnableOutlineVertAnimScaleHeightLerp": 0.0,
-      "_NyxStateEnableOutlineWidthScaleHeightLerp": 0.0,
+      "_NyxStateEnableOutlineVertAnimScaleHeightLerp": 1.0,
+      "_NyxStateEnableOutlineWidthScaleHeightLerp": 1.0,
       "_NyxStateOutlineColorNoiseTurbulence": 0.25,
       "_NyxStateOutlineColorOnBodyOpacity": 1.0,
-      "_NyxStateOutlineColorScale": 1.0,
-      "_NyxStateOutlineVertAnimScale": 30.0,
-      "_NyxStateOutlineWidthScale": 5.0,
+      "_NyxStateOutlineColorScale": 3.0,
+      "_NyxStateOutlineVertAnimScale": 1.0,
+      "_NyxStateOutlineWidthScale": 1.0,
       "_OutLineIntensity": 0.0,
       "_OutLineIntensity2": 0.0,
       "_OutLineIntensity3": 0.0,
@@ -348,6 +349,7 @@
       "_OutLineIntensity5": 0.0,
       "_OutlineGroup": 0.0,
       "_OutlineMotionVectorsCull": 1.0,
+      "_OutlineOffsetBlockBChannel": 0.0,
       "_OutlinePolygonOffsetFactor": 0.0,
       "_OutlinePolygonOffsetUnit": 0.0,
       "_OutlineType": 2.0,
@@ -384,7 +386,7 @@
       "_SpecOpacity4": 0.0,
       "_SpecOpacity5": 0.0,
       "_SpecualrInShaow": 0.0,
-      "_TempNyxStatePaintMaskChannel": 0.0,
+      "_TempNyxStatePaintMaskChannel": 2.0,
       "_TessEdgeLength": 10.0,
       "_TessOutlineZOffset": 0.0,
       "_TessPidStart": 0.0,
@@ -583,6 +585,30 @@
         "b": 1.0,
         "a": 1.0
       },
+      "_EmissionScaler_LerpParam": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionScaler_State": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionScaler_Value1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_EmissionScaler_Value2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
       "_FaceBlushColor": {
         "r": 1.0,
         "g": 0.062068943,
@@ -662,14 +688,14 @@
         "a": 1.0
       },
       "_NyxStateOutlineColorNoiseAnim": {
-        "r": 0.05,
-        "g": 0.05,
+        "r": 0.1,
+        "g": -0.2,
         "b": 0.0,
         "a": 0.0
       },
       "_NyxStateOutlineColorNoiseScale": {
-        "r": 2.0,
-        "g": 2.0,
+        "r": 4.0,
+        "g": 3.0,
         "b": 0.0,
         "a": 0.0
       },
@@ -680,45 +706,45 @@
         "a": 1.0
       },
       "_NyxStateOutlineVertAnimNoiseAnim": {
-        "r": 0.05,
-        "g": 0.05,
+        "r": 0.5,
+        "g": 0.25,
         "b": 0.0,
         "a": 0.0
       },
       "_NyxStateOutlineVertAnimNoiseScale": {
-        "r": 2.0,
-        "g": 2.0,
+        "r": 3.0,
+        "g": 3.0,
         "b": 0.0,
         "a": 0.0
       },
       "_NyxStateOutlineVertAnimScaleLerpHeightRange": {
         "r": 0.0,
-        "g": 1.0,
-        "b": 1.0,
+        "g": 2.581,
+        "b": 0.3874467,
         "a": 0.0
       },
       "_NyxStateOutlineVertAnimScaleRange": {
-        "r": 1.0,
-        "g": 1.0,
+        "r": 8.0,
+        "g": 12.0,
         "b": 0.0,
         "a": 0.0
       },
       "_NyxStateOutlineWidthScaleLerpHeightRange": {
         "r": 0.0,
-        "g": 1.0,
-        "b": 1.0,
+        "g": 0.01,
+        "b": 100.0,
         "a": 0.0
       },
       "_NyxStateOutlineWidthScaleRange": {
-        "r": 1.0,
-        "g": 1.0,
+        "r": 2.4,
+        "g": 3.6,
         "b": 0.0,
         "a": 0.0
       },
       "_NyxStateOutlineWidthVarietyWithResolution": {
         "r": 1080.0,
-        "g": 0.0,
-        "b": 0.0,
+        "g": 0.0015,
+        "b": 0.67,
         "a": 0.0
       },
       "_OutlineColor": {
